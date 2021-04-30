@@ -6,8 +6,19 @@ import LogoMarceting from "../../components/Services/LogoMarceting";
 import LogoHeader from "../../components/Services/LogoHeader";
 import LogoCases from "../../components/Services/LogoCases";
 import Application from "../../components/Services/Application";
+import AOS from "aos";
 
 const LogoPage = (props) => {
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 700,
+    //         delay: 50,
+    //         once: true,
+    //     })
+    //
+    // })
+
+
     return (
         <>
             <Navbar history={props.history}/>

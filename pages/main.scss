@@ -43,181 +43,33 @@
 }
 
 
-.Loader {
+ .Loader{
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   width: 100vw;
+   .videoLoaderDes{
+     width: auto !important;
+     height: auto !important;
+     margin-top: -150px;
+        video{
 
+          //height: 100vh !important;
+          width: auto;
+        }
+   }
+   .videoLoaderMob{
+     display: none;
+     width: auto !important;
+     height: auto !important;
+     margin-top: -100px;
+     video{
 
-  z-index: 1;
-
-  overflow-x: hidden !important;
-  position: relative;
-}
-
-svg {
-  font-family: 'Russo One', sans-serif;
-  position: absolute;
-  width: 100%; height: 100%;
-}
-svg  text {
-  text-transform: uppercase;
-  animation: stroke 3s ;
-  stroke-width: 2;
-  stroke: rgba(255, 255, 255, 0.8);
-  font-size: 140px;
-  fill: rgba(255, 255, 255, 0.9);
-}
-
-svg  path {
-  text-transform: uppercase;
-  animation: stroke 3s infinite alternate;
-  stroke-width: 2;
-  stroke: rgba(255, 255, 255, 0.4);
-  font-size: 140px;
-}
-@keyframes stroke {
-  0%   {
-    fill: rgba(72,138,20,0); stroke: rgba(255, 255, 255, 0.8);;
-    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-  }
-  70%  {fill: rgba(72,138,20,0); stroke:rgba(255, 255, 255, 0.8);; }
-  80%  {fill: rgba(72,138,20,0); stroke: rgba(255, 255, 255, 0.8);; stroke-width: 3; }
-  100% {
-    fill: rgba(255, 255, 255, 0.8);; stroke: rgba(54,95,160,0);
-    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-  }
-}
-
-
-.kelyan{
-  width: 900px;
-  position: absolute;
-  right: -250px;
-  bottom: -250px;
-
-}
-
-.media{
-  width: 950px;
-  position: absolute;
-  left: -250px;
-  top: -200px;
-
-}
-
-
-
-
-.kF  svg  text {
-  text-transform: uppercase;
-  animation: stroke 3s ;
-  stroke-width: 2;
-  stroke: rgba(255, 255, 255, 0.3);
-  font-size: 140px;
-  fill: transparent !important;
-}
-
-.mF  svg  text {
-  text-transform: uppercase;
-  animation: stroke 3s ;
-  stroke-width: 2;
-  stroke: rgba(255, 255, 255, 0.3);
-  font-size: 140px;
-  fill: transparent !important;
-}
-
-
-.kF{
-  width: 100%;
-
-  height: 300px;
-}
-
-.mF{
-  width: 100%;
-
-  height: 300px;
-}
-.kImg{
-  position: absolute;
-  left: 40%;
-  top: 110px;
-}
-
-.kImg svg{
-  position: absolute;
-  left: -50px;
-  width: 400px;
-  bottom: -150px;
-}
-
-
-
-.raceta{
-  position: absolute;
-  right: -550px;
-  top: 350px;
-  width: 500px    ;
-
-  animation-name: fly;
-  transition: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration:3s;
-}
-
-@keyframes fly {
-  0%{
-    transform: translateY(0px) translatex(0px);
-  }
-  100%{
-    transform: translateY(-900px) translatex(-1200px);
-
-
-  }
-
-}
-
-
-@media (max-width: 765px) {
-
-  .kImg{
-    position: absolute;
-    left: 20%;
-    top: 150px;
-    width: 200px !important;
-  }
-  .kImg img{
-    width: 100%;
-  }
-
-
-  .kImg svg{
-    position: absolute;
-    left: -30px;
-    width: 260px;
-    bottom: -110px;
-  }
-
-
-  .kelyan{
-    width: 400px;
-    position: absolute;
-    right: -100px;
-    bottom: -200px;
-
-  }
-
-  .media{
-    width: 450px;
-    position: absolute;
-    left: -100px;
-    top: -250px;
-
-  }
-
-
-}
-
-
+       //height: 100vh !important;
+       width: auto;
+     }
+   }
+ }
 
 
 html{
@@ -2661,6 +2513,16 @@ html{
 
 @media  (max-width: 765px) {
 
+  .Loader{
+
+    .videoLoaderDes{
+      display: none;
+    }
+    .videoLoaderMob{
+      display: block !important;
+
+    }
+  }
   html{
     body{
       .Jumbotron {

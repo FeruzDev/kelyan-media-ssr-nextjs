@@ -14,16 +14,16 @@ const HomePage = (props) => {
 
   const [loading, setLoading]= useState(false);
 
-
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    }, 3000)
+    }, 4000)
   }, [])
   console.log(props)
   return (
       <div className="overflow-hidden">
+
 
         {
           loading ?

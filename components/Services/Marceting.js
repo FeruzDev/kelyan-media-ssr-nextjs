@@ -19,13 +19,14 @@ class Marceting extends Component {
                                 бренда на рынке
                             </p>
                         </div>
-                        <div className="col-6 d-flex align-items-center justify-content-center p-5">
-                            <img src="/img/service/125.png" className="mt-5" alt="no img..."/>
+
+                        <div className="col-6 d-flex align-items-center justify-content-center p-4">
+                            <img src="/img/service/125.png" className="mt-5 w-100" alt="no img..."/>
                         </div>
 
 
-                        <div className="col-6 d-flex align-items-center justify-content-center p-5 ">
-                            <img src="/img/service/124.png" className="mt-5" alt="no img..."/>
+                        <div className="col-6 d-flex align-items-center justify-content-center p-4 ">
+                            <img src="/img/service/124.png" className="mt-5 w-100" alt="no img..."/>
                         </div>
                         <div className="col-6">
                             <h3  className="styles_typicalWrapper__1_Uvh">

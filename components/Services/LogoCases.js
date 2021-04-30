@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
+import AOS from "aos";
 
 class LogoCases extends Component {
+    componentDidMount() {
+        AOS.init({
+            duration: 700,
+            delay: 50,
+            once: true,
+        })
+
+    }
+
     render() {
         return (
             <div className="LogoCases">

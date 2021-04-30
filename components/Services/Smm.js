@@ -17,7 +17,7 @@ class Smm extends Component {
                          data-aos-easing="linear"
                          data-aos-duration="1200"
                          className="styles_typicalWrapper__1_Uvh"
-                    >Увеличение вашего дохода через социальные сети</h3>
+                    >Показатели нашей работы в социальных сетях</h3>
 
 
                     <div className="row">
