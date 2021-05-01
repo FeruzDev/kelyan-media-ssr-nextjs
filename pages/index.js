@@ -8,6 +8,8 @@ import Clients from "../components/Home/Clients";
 import Footer from "../components/Footer";
 import SubHome from "../components/Home/SubHome";
 import Loader from "../components/Loader";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const HomePage = (props) => {
 
@@ -19,8 +21,17 @@ const HomePage = (props) => {
     setTimeout(()=>{
       setLoading(false)
     }, 4000)
+    AOS.init({
+      once: true
+    });
+
+
+
+
+
   }, [])
-  console.log(props)
+
+
   return (
       <div className="overflow-hidden">
 

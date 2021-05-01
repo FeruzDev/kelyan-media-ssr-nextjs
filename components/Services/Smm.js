@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
-import AOS from "aos";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Typical from "react-typical"
 
 class Smm extends Component {
 
     componentDidMount() {
-        AOS.init();
+        AOS.init({
+            once: true
+        });
 
     }
 

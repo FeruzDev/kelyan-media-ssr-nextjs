@@ -9,7 +9,7 @@ class App extends React.Component {
                     params={{
                         "particles": {
                             "number": {
-                                "value": 100,
+                                "value": 150,
                                 "density": {
                                     "enable": false
                                 }
@@ -20,7 +20,7 @@ class App extends React.Component {
                                 "opacity": 0.5,
                                 "anim": {
                                     "speed": 1,
-                                    "size_min": 0.3
+                                    "size_min": 0.5
                                 }
                             },
                             "line_linked": {
@@ -53,7 +53,7 @@ class App extends React.Component {
                                     "opacity": 0
                                 },
                                 "repulse": {
-                                    "distance": 400,
+                                    "distance": 100,
                                     "duration": 4
                                 }
                             }
