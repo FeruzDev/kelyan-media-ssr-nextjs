@@ -14,10 +14,10 @@ import 'aos/dist/aos.css';
 const HomePage = (props) => {
 
 
-  const [loading, setLoading]= useState(false);
+  const [loading, setLoading]= useState(true);
 
   useEffect(()=>{
-    setLoading(true)
+
     setTimeout(()=>{
       setLoading(false)
     }, 4000)
