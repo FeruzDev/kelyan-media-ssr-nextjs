@@ -10,26 +10,8 @@ class Cases extends Component {
                  <h3 className="styles_typicalWrapper__1_Uvh"
                  >КЕЙСЫ</h3>
              </div>
-                <img src="/img/rec72.png" alt=""/>
 
                 <div className="row">
-
-
-                    <div className="col-md-6">
-                        <img src="/img/rec72.png" alt=""/>
-                    </div>
-                    <div className="col-md-6">
-                        <img   src="/img/rec73.png" alt=""/>
-                    </div>
-                    <div className="col-md-6">
-                        <img  src="/img/rec74.png" alt=""/>
-                    </div>
-                    <div className="col-md-6">
-                        <img   src="/img/rec75.png" alt=""/>
-                    </div>
-
-
-
                     <div className="col-md-6">
                         <img  src="/img/rec72.png" alt=""/>
                     </div>
