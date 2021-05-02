@@ -20,7 +20,7 @@ const HomePage = (props) => {
 
     setTimeout(()=>{
       setLoading(false)
-    }, 4222000)
+    }, 3000)
     AOS.init({
       once: true
     });
