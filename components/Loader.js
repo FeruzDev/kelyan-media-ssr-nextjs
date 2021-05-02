@@ -8,8 +8,8 @@ class Loader extends Component {
                 {/*<ReactPlayer muted={true} playing={true} url="/video/mob.mp4 " className="videoLoaderMob" />*/}
 
 
-                <video src="/video/des.mp4 " className="videoLoaderDes" muted    loop autoPlay></video>
-                <video src="/video/mob.mp4 " className="videoLoaderMob" muted    loop autoPlay></video>
+                <video src="/video/des.mp4 " className="videoLoaderDes" muted playsInline    loop autoPlay />
+                <video src="/video/mob.mp4 " className="videoLoaderMob" muted playsInline   loop autoPlay />
             </div>
         );
     }

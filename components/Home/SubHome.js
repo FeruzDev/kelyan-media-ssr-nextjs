@@ -65,7 +65,6 @@ class SubHome extends Component {
 
 
                 </div>
-                <video src="/video/des.mp4 " className="videoLoaderDes" muted  controls playsInline  loop  autoPlay></video>
 
             </div>
         );
