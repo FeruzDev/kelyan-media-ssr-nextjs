@@ -19,27 +19,43 @@ componentDidMount() {
 
                  <App/>
                  <div className="container ">
-                     <div className="col-md-4">
+                     <img src="/img/icon/3ugl.png" className="rightCorner"alt=""/>
 
-                         {/* eslint-disable-next-line react/jsx-no-undef */}
-                         <Typical
-                             steps={['KELYANMEDIA', 1000, 'Маркетинговая Digital Компания', 500]}
-                             loop={Infinity}
-                             wrapper="h1"
-                         />
+                     <div className="row">
+                       <div className="col-md-8">
+                           <div className="col-md-4">
 
-                     </div>
-                     <div className="col-md-8">
-                         <p data-aos="fade-up"
-                            data-aos-easing="linear"
-                            data-aos-duration="1000">
-                             Возвышаем ваш бизнес на новый уровень и повышаем  продажи
-                         </p>
-                     </div>
+                               {/* eslint-disable-next-line react/jsx-no-undef */}
+                               <Typical
+                                   steps={['KELYANMEDIA', 1000, 'Маркетинговая Digital Компания', 500]}
+                                   loop={Infinity}
+                                   wrapper="h1"
+                               />
 
-                     <img
+                           </div>
+                           <div className="col-md-12">
+                               <p data-aos="fade-up"
+                                  data-aos-easing="linear"
+                                  data-aos-duration="1000">
+                                   Возвышаем ваш бизнес на новый уровень и повышаем  продажи
+                               </p>
+                           </div>
+                       </div>
 
-                          src="/img/reaceta.png" alt=""/>
+
+                       <div className="col-md-4 jumButton">
+
+
+                           <a className="rounded-pill  ">Подробнее</a>
+                           <a  className="rounded-pill  " >Оставить заявку</a>
+                       </div>
+
+                   </div>
+
+                     <img src="/img/reaceta.png" className="racetaDes" alt=""/>
+
+                     <img src="/img/icon/3ugl2.png" className="leftCorner"alt=""/>
+
                  </div>
              </div>
 

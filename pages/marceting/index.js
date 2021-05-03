@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from "../../components/Navbar";
 
 import Footer from "../../components/Footer";
@@ -14,6 +14,19 @@ import SerContact from "../../components/Services/SerContact";
 
 
 const CompanyPage = (props) => {
+
+
+    useEffect(()=>{
+
+        setTimeout(()=>{
+            document.getElementById("desVid").style.display = "none"
+            document.getElementById("mobVid").style.display = "none"
+            document.getElementById("kotLoader").style.display = "none"
+        }, 3000)
+
+
+    }, [])
+
 
     return (
 

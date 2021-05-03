@@ -14,12 +14,13 @@ import 'aos/dist/aos.css';
 const HomePage = (props) => {
 
 
-  const [loading, setLoading]= useState(true);
 
   useEffect(()=>{
 
     setTimeout(()=>{
-      setLoading(false)
+      document.getElementById("desVid").style.display = "none"
+      document.getElementById("mobVid").style.display = "none"
+      document.getElementById("kotLoader").style.display = "none"
     }, 3000)
     AOS.init({
       once: true
@@ -36,12 +37,7 @@ const HomePage = (props) => {
       <div className="overflow-hidden">
 
 
-        {
-          loading ?
-              ( <Loader/>)
-              :
 
-              <>
 
                 <Navbar history={props.history} />
                 <Jumbotron />
@@ -51,8 +47,7 @@ const HomePage = (props) => {
                 <Cases />
                 <Clients />
 
-                <Footer /></>
-        }
+                <Footer />
 
 
 

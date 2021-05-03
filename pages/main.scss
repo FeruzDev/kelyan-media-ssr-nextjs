@@ -57,8 +57,8 @@
      //margin-top: -150px;
         video{
 
-          //height: 100vh !important;
-          width: 100vw !important;
+     //height: 100vh !important;
+     width: 100vw !important;
         }
    }
    .videoLoaderMob{
@@ -226,70 +226,95 @@ html{
     }
 
 
-    .Jumbotron {
-      position: relative;
-      padding-bottom: 200px;
-      .container {
-        position: relative;
-        z-index: 111;
-        .col-md-4 {
-          h1 {
-            font-size: 48px;
-            padding-top: 120px;
-            padding-left: 100px;
-            font-weight: 700;
-
-            background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
-
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: #FFD66B;
-
-            display: table;
-            height: 300px;
-
-          }
-        }
-
-        .col-md-8 {
-          p {
-
-            font-size: 30px;
-            padding-left: 100px;
-            color: #fff;
-          }
-        }
-
-        img {
-          width: 65%;
-          position: absolute;
-          top: 10%;
-          right: 5%;
-          z-index: 111;
-          //animation-name: raceta;
-          //animation-duration: 2s;
-          //animation-iteration-count: infinite;
-          //animation-timing-function: linear;
-        }
-        //
-        //@keyframes raceta {
-        //  0% {
-        //    transform: translateX(0px) translateY(0px);
-        //
-        //  }
-        //  50% {
-        //    transform: translateX(20px) translateY(20px);
-        //  }
-        //
-        //
-        //  100% {
-        //    transform: translateX(0px) translateY(0px);
-        //  }
-        //}
-      }
-
-
-    }
+    //.Jumbotron {
+    //       position: relative;
+    //       padding-bottom: 200px;
+    //       .container {
+    //         position: relative;
+    //         z-index: 111;
+    //
+    //         .rightCorner{
+    //           width: 200px;
+    //         }
+    //         .leftCorner{
+    //           width: 200px;
+    //         }
+    //         .racetaDes {
+    //           width: 65%;
+    //           position: absolute;
+    //           top: 10%;
+    //           right: 5%;
+    //           z-index: 111;
+    //         }
+    //         .jumButton{
+    //           display: flex;
+    //           align-items: center;
+    //           justify-content: center;
+    //           flex-direction: column;
+    //           position: relative;
+    //           z-index: 999;
+    //           padding-top: 150px;
+    //
+    //           a{
+    //             font-size: 20px;
+    //             height: 50px;
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: center;
+    //             width: 200px;
+    //             border: 2px solid #fff;
+    //             color: #fff;
+    //             font-weight: normal;
+    //           }
+    //           a:hover{
+    //             text-decoration: none;
+    //           }
+    //           a:nth-child(2){
+    //             background: linear-gradient(90deg, #5F72BD 0%, #9B23EA 100%);
+    //
+    //             margin-top: 36px;
+    //           }
+    //         }
+    //         .col-md-4 {
+    //
+    //           position: relative;
+    //           z-index: 9999;
+    //           h1 {
+    //             font-size: 48px;
+    //             padding-top: 120px;
+    //             padding-left: 100px;
+    //             font-weight: 700;
+    //
+    //             background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+    //
+    //             -webkit-background-clip: text;
+    //             -webkit-text-fill-color: transparent;
+    //             color: #FFD66B;
+    //
+    //             display: table;
+    //             height: 300px;
+    //
+    //           }
+    //         }
+    //
+    //         .col-md-12 {
+    //
+    //           position: relative;
+    //           z-index: 9999;
+    //           p {
+    //
+    //             font-size: 30px;
+    //             padding-left: 100px;
+    //             color: #fff;
+    //           }
+    //         }
+    //
+    //
+    //
+    //       }
+    //
+    //
+    //     }
 
     .subHome {
       h2 {
@@ -864,66 +889,104 @@ html{
     }
 
 
+
     .Jumbotron {
       position: relative;
       padding-bottom: 200px;
       .container {
         position: relative;
         z-index: 111;
-        .col-md-4 {
-          h1 {
-            font-size: 48px;
-            padding-top: 120px;
-            padding-left: 100px;
-            font-weight: 700;
 
-            background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
-
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: #FFD66B;
-
-            display: table;
-            height: 300px;
-
-          }
+        .rightCorner{
+          width: 200px;
+          float: right;
+          margin-right: 50px;
         }
+        .leftCorner{
+          width: 200px;
+          margin-left: 100px;
 
-        .col-md-8 {
-          p {
-
-            font-size: 30px;
-            padding-left: 100px;
-            color: #fff;
-          }
         }
-
-        img {
+        .racetaDes {
           width: 65%;
           position: absolute;
           top: 10%;
           right: 5%;
           z-index: 111;
-          //animation-name: raceta;
-          //animation-duration: 2s;
-          //animation-iteration-count: infinite;
-          //animation-timing-function: linear;
         }
-        //
-        //@keyframes raceta {
-        //  0% {
-        //    transform: translateX(0px) translateY(0px);
-        //
-        //  }
-        //  50% {
-        //    transform: translateX(20px) translateY(20px);
-        //  }
-        //
-        //
-        //  100% {
-        //    transform: translateX(0px) translateY(0px);
-        //  }
-        //}
+        .jumButton{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+          z-index: 999;
+          padding-top: 150px;
+
+          a{
+            font-size: 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            border: 2px solid #fff;
+            color: #fff;
+            font-weight: normal;
+          }
+          a:hover{
+            text-decoration: none;
+          }
+          a:nth-child(2){
+            background: linear-gradient( 90deg                    , #5f72bd54 0%, #9b23ea40 100%) !important;
+
+
+            margin-top: 36px;
+          }
+        }
+        .row{
+          width: 100%;
+          .col-md-8{
+            .col-md-4 {
+
+              position: relative;
+              z-index: 9999;
+              h1 {
+                font-size: 48px;
+                padding-top:    0px;
+                padding-left: 100px;
+                font-weight: 700;
+
+                background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
+
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                color: #FFD66B;
+
+                display: table;
+                height: 175px;
+
+              }
+            }
+            .col-md-12 {
+
+              position: relative;
+              z-index: 9999;
+              p {
+
+                font-size: 30px;
+                padding-left: 100px;
+                color: #fff;
+              }
+            }
+          }
+        }
+
+
+
+
+
+
       }
 
 
@@ -2533,36 +2596,88 @@ html{
   html{
     body{
       .Jumbotron {
-        padding-bottom: 20px !important;
+        #nizom{
+          height: 100% !important;
+        }
+        padding-bottom: 100px;
+
         .container {
-          padding: 0 15px;
-          .col-md-4 {
-            h1 {
-              font-size: 24px;
-              padding-top: 48px;
-              padding-left:  0px   ;
-              padding-right: 150px   ;
-              height: 140px   ;
+    
+
+          .rightCorner{
+            display: none;
+          }
+          .leftCorner{
+         display: none;
+
+          }
+          .racetaDes {
+            width: 120%;
+            top: 24%;
+            right: -5%;
+            transform: rotate(35deg);
+          }
+          .jumButton{
+            padding-top: 150px;
+
+            a{
+              font-size: 14px;
+              height: 40px;
+              width: 160px;
+              font-weight: normal;
+            }
+            a:hover{
+              text-decoration: none;
+            }
+            a:nth-child(2){
+              background: linear-gradient(90deg, #5F72BD 0%, #9B23EA 100%);
+
+              margin-top: 36px;
             }
           }
-          .col-md-8 {
-            p {
+          .row{
 
-              font-size: 16px;
-              padding-left: 0px   ;
+            padding: 0;
+            margin: 0;
+            .col-md-8{
 
-              padding-right: 80px ;
+              padding: 0;
+              margin: 0;
+              .col-md-4 {
 
+                padding: 0;
+                margin: 0;
+                position: relative;
+                z-index: 9999;
+                h1 {
+                  font-size:42px;
+                  padding-top:    136px;
+                  padding-left: 16px;
+                  height: 300px;
+
+                }
+              }
+              .col-md-12 {
+
+                padding: 0;
+                margin: 0;
+                position: relative;
+                z-index: 9999;
+                p {
+
+                  font-size: 18px;
+                  padding-left: 16px;
+                  padding-right: 50px;
+                  color: #fff;
+                }
+              }
             }
           }
 
-          img {
-            width: 60%;
 
-            top: 20%;
-            right:  15%;
 
-          }
+
+
 
         }
 

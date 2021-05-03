@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
@@ -9,14 +9,24 @@ import Application from "../../components/Services/Application";
 import AOS from "aos";
 
 const LogoPage = (props) => {
-    // useEffect(() => {
-    //     AOS.init({
-    //         duration: 700,
-    //         delay: 50,
-    //         once: true,
-    //     })
-    //
-    // })
+
+
+
+
+
+
+    useEffect(()=>{
+
+        setTimeout(()=>{
+            document.getElementById("desVid").style.display = "none"
+            document.getElementById("mobVid").style.display = "none"
+            document.getElementById("kotLoader").style.display = "none"
+        }, 3000)
+
+
+    }, [])
+
+
 
 
     return (

@@ -28,7 +28,7 @@ const Navbar = (props) => {
             <div className="container mainNavbar">
              <div className="row">
                  <div className="col-md-2">
-                     <Link className="navbar-brand" href="/"><a className="navbar-brand">KELYAN<b >MEDIA</b></a></Link>
+                     <Link className="navbar-brand" href="/"><a className="navbar-brand"><img src="/img/icon/logoB.png" className="mr-3 p-0  " alt="" style={{marginTop: "-5px"}}/>KELYAN<b >MEDIA</b></a></Link>
                  </div>
                  <div className="col-md-6">
                      <div className="navbar">
