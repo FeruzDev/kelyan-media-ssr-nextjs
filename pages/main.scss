@@ -2013,7 +2013,7 @@ html{
 
 
 .Marceting{
-  overflow: hidden;
+  overflow-x:  hidden !important;
   .container{
     .sel{
       color: #fff;
@@ -3565,12 +3565,10 @@ html{
               background: #1E0101;
               border-radius: 50%;
               border: 1px solid #fff;
-              h3 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
 
-                margin: 0px auto;
-                margin-top: 15px;
-
-              }
             }
 
             h4 {
@@ -3604,6 +3602,8 @@ html{
 
 
   .Marceting{
+    overflow-x:  hidden !important;
+
     .container{
       .sel{
         color: #fff;
@@ -3830,6 +3830,10 @@ html{
           justify-content: center;
           flex-direction: column;
 
+          img{
+            width: 166px;
+            height: 166px;
+          }
           h1{
             color: #fff;
 

@@ -27,8 +27,9 @@ class Offers extends Component {
 
                                 <div>
                                    <h3 className="numberBack">
-                                        <h3>1</h3>
-                                    </h3>
+                                       <img src="/img/icon/1.png" alt=""/>
+
+                                   </h3>
                                     <h4>Публикации</h4>
                                 </div>
                                 <p>
@@ -49,8 +50,9 @@ class Offers extends Component {
 
                                 <div>
                                      <h3 className="numberBack">
-                                        <h3>2</h3>
-                                    </h3>
+                                         <img src="/img/icon/2.png" alt=""/>
+
+                                     </h3>
                                     <h4>Таргетированная реклама</h4>
                                 </div>
                                 <p>
@@ -71,7 +73,8 @@ class Offers extends Component {
 
                                 <div>
                                     <h3 className="numberBack">
-                                        <h3>3</h3>
+                                        <img src="/img/icon/3.png" alt=""/>
+
                                     </h3>
                                     <h4>Изучение конкурентов</h4>
                                 </div>
@@ -92,7 +95,8 @@ class Offers extends Component {
 
                                 <div>
                                     <h3 className="numberBack">
-                                        <h3>4</h3>
+                                        <img src="/img/icon/4.png" alt=""/>
+
                                     </h3>
                                     <h4>Рекомендации по <br/> улучшению бизнеса <br/>
                                         аудитории</h4>
@@ -115,8 +119,9 @@ class Offers extends Component {
 
                                 <div>
                                      <h3 className="numberBack">
-                                        <h3>5</h3>
-                                    </h3>
+                                         <img src="/img/icon/5.png" alt=""/>
+
+                                     </h3>
                                     <h4>Создание комьюнити <br/> для вашего бренда</h4>
                                 </div>
                                 <p>
@@ -137,8 +142,9 @@ class Offers extends Component {
 
                                 <div>
                                      <h3 className="numberBack">
-                                        <h3>6</h3>
-                                    </h3>
+                                         <img src="/img/icon/6.png" alt=""/>
+
+                                     </h3>
                                     <h4>Привлечения людей </h4>
                                 </div>
                                 <p>

@@ -13,23 +13,29 @@ class Cases extends Component {
 
                 <div className="row">
                     <div className="col-md-6">
-                        <img  src="/img/rec72.png" alt=""/>
+                        <img src="/img/service/q2.jpg" alt=""/>
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/rec73.png" alt=""/>
+                        <img src="/img/service/q3.jpg" alt=""/>
+
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/rec74.png" alt=""/>
+                        <img src="/img/service/q4.jpg" alt=""/>
+
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/rec75.png" alt=""/>
+                        <img src="/img/service/q5.jpg" alt=""/>
+
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/rec77.png" alt=""/>
+                        <img src="/img/service/q7.jpg" alt=""/>
+
                     </div>
                     <div className="col-md-6">
-                        <img src="/img/rec76.png" alt=""/>
+                        <img src="/img/service/q6.jpg" alt=""/>
+
                     </div>
+
                 </div>
 
 

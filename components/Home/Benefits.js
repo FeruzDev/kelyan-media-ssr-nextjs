@@ -32,7 +32,7 @@ class Benefits extends Component {
 
                                 <div>
                                     <h3 className="numberBack">
-                                        <h3>1</h3>
+                                        <img src="/img/icon/1.png" alt=""/>
                                     </h3>
                                     <h4>Увеличиваем <br/>
                                         продажи</h4>
@@ -59,8 +59,9 @@ class Benefits extends Component {
 
                                 <div>
                                    <h3 className="numberBack">
-                                        <h3>2</h3>
-                                    </h3>
+                                       <img src="/img/icon/2.png" alt=""/>
+
+                                   </h3>
                                     <h4>Сокращаем расходы <br/>на
                                         рекламу</h4>
                                 </div>
@@ -82,8 +83,9 @@ class Benefits extends Component {
 
                                 <div>
                                    <h3 className="numberBack">
-                                        <h3>3</h3>
-                                    </h3>
+                                       <img src="/img/icon/3.png" alt=""/>
+
+                                   </h3>
                                     <h4>Экономим время</h4>
                                 </div>
                                 <p>
@@ -104,8 +106,9 @@ class Benefits extends Component {
 
                                 <div>
                                    <h3 className="numberBack">
-                                        <h3>4</h3>
-                                    </h3>
+                                       <img src="/img/icon/4.png" alt=""/>
+
+                                   </h3>
                                     <h4>Повышаем лояльность <br/>
                                         аудитории</h4>
                                 </div>
