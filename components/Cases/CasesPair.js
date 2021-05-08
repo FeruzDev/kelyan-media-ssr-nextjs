@@ -37,37 +37,43 @@ class CasesPair extends Component {
 
 
                     <div className="col-md-6">
-                        <img  src="/img/service/q9.svg" alt=""/>
+                        <img  src="/img/service/q9.jpg" alt=""/>
                     </div>
 
                     <div className="col-md-6">
-                        <img  src="/img/service/q10.svg" alt=""/>
+                        <img  src="/img/service/q10.jpg" alt=""/>
 
                     </div>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img   src="/img/rec1(7).png" alt=""/>*/}
-                    {/*</div>*/}
+                    <div className="col-md-6">
+                        <img  src="/img/service/q11.jpg" alt=""/>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img  src="/img/rec1(6).png" alt=""/>*/}
-                    {/*</div>*/}
+                    </div>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img  src="/img/rec1(5).png" alt=""/>*/}
-                    {/*</div>*/}
+                    <div className="col-md-6">
+                        <img  src="/img/service/q12.jpg" alt=""/>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img   src="/img/rec1(4).png" alt=""/>*/}
-                    {/*</div>*/}
+                    </div>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img  src="/img/rec1(3).png" alt=""/>*/}
-                    {/*</div>*/}
+                    <div className="col-md-6">
+                        <img  src="/img/service/q14.jpg" alt=""/>
 
-                    {/*<div className="col-md-6">*/}
-                    {/*    <img    src="/img/rec1(2).png" alt=""/>*/}
-                    {/*</div>*/}
+                    </div>
+
+                    <div className="col-md-6">
+                        <img  src="/img/service/q15.jpg" alt=""/>
+
+                    </div>
+
+                    <div className="col-md-6">
+                        <img  src="/img/service/q16.jpg" alt=""/>
+
+                    </div>
+
+                    <div className="col-md-6">
+                        <img  src="/img/service/q17.jpg" alt=""/>
+
+                    </div>
                 </div>
             </div>
         );

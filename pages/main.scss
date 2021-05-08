@@ -2579,6 +2579,9 @@ html{
 
 @media  (max-width: 765px) {
 
+  #__next{
+    overflow-x: hidden !important;
+  }
   .Navbar{
     height: auto !important;
   }
