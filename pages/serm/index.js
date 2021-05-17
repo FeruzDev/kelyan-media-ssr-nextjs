@@ -29,6 +29,7 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/SERM.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 "> SERM - услуги управления репутацией вашего <br/> бизнеса</h3>
             <Trafic/>
             <Cases/>
             <SermPr/>

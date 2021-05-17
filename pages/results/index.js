@@ -28,6 +28,7 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/results.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 ">Продвинем ваш сайт в поисковиках гугл и яндекс с <br/> гарантией результата </h3>
             <Trafic/>
             <Cases/>
             <Promoting />

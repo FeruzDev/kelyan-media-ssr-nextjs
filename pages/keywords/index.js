@@ -28,6 +28,9 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/kewywords.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 ">
+            Грамотная оптимизация и успешное продвижение <br/> сайта по ключевым словам
+            </h3>
             <Trafic/>
             <Cases/>
             <Promoting />

@@ -29,6 +29,8 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/complex.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 "> SEO продвижение - органический трафик <br/>
+                вашего бизнеса</h3>
             <Trafic/>
             <Cases/>
             <ComplexPr/>

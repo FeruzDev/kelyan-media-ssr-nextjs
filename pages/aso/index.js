@@ -29,6 +29,8 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/ASO.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 ">
+           ASO оптимизация - процесс оптимизации <br/> приложения в Google Play Market, App Store</h3>
             <Trafic/>
             <Cases/>
             <ASOPr/>

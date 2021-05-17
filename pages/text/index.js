@@ -28,6 +28,8 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/text.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 "> Написание текстов — рерайт, копирайтинг, продающие тексты <br/>
+            для сайтов</h3>
             <Trafic/>
             <Cases/>
             <Promoting />

@@ -95,6 +95,11 @@ html{
       background-image: -webkit-linear-gradient(90deg, #FFD66B 0%, #E2021A 100%) !important;
 
 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+
+
     }
 
     .Navbar {

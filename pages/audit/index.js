@@ -28,6 +28,9 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/audit.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 ">  Всесторонняя проверка сайта и аудит - первый шаг <br/>
+            на пути к успешной SEO оптимизации
+            </h3>
             <Trafic/>
             <Cases/>
             <Promoting />

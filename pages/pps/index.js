@@ -29,6 +29,7 @@ const Seo = () => {
             <div className="overflow-hidden">
                 <img src="/img/seo/pps.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="pl-5 pr-5 mt-5 text-center font-weight-bold mb-5 "> PPS контекстная реклама - точный и эффективный <br/> способ донести свой продукт до целевой аудитории</h3>
             <Trafic/>
             <Cases/>
            <PpsPr/>
