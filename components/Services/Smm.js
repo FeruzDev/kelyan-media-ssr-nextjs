@@ -30,7 +30,7 @@ class Smm extends Component {
                              data-aos-duration="1200"
                              data-aos-delay="400">
                             <h1>34</h1>
-                            <p>компаний с которыми работали</p>
+                            <p>компании с которыми мы работали</p>
                         </div>
 
 
@@ -77,7 +77,7 @@ class Smm extends Component {
                                data-aos-duration="1200"
                                data-aos-delay="200"
 
-                            >Увеличите доходы вашей компаннии</p>
+                            > Увеличение <br/> доходов вашей <br/> компании</p>
                         </div>
                         <div className="salary">
                             <img data-aos="fade-up"
@@ -88,7 +88,7 @@ class Smm extends Component {
                                data-aos-easing="linear"
                                data-aos-duration="1200"
                                data-aos-delay="200"
-                            >Узнаваемость вашего бренда</p>
+                            >Повышение <br/> узнаваемости <br/> вашего бренда</p>
                         </div>
                         <div className="salary">
                             <img data-aos="fade-up"
@@ -99,7 +99,7 @@ class Smm extends Component {
                                data-aos-easing="linear"
                                data-aos-duration="1200"
                                data-aos-delay="200"
-                            >Целевую аудиторию которая будет следить за вашей компанией</p>
+                            >Определение целевой <br/> аудитории, которая будет <br/> следить за вашей компанией</p>
                         </div>
                     </div>
                 </div>

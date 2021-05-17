@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import App from "../App";
 import AOS from "aos";
 import Typical from "react-typical"
+import Link from "next/link";
 class Jumbotron extends Component {
 
 componentDidMount() {
@@ -46,8 +47,9 @@ componentDidMount() {
                        <div className="col-md-4 jumButton">
 
 
-                           <a className="rounded-pill  ">Подробнее</a>
-                           <a  className="rounded-pill  " >Оставить заявку</a>
+                           <a className="rounded-pill " href="#subHome">Подробнее</a>
+                           {/*<a  className="rounded-pill  " >Оставить заявку</a>*/}
+                           <div className="rounded-pill  "> <a className="rounded-pill" href="#request">Оставить заявку</a> </div>
                        </div>
 
                    </div>

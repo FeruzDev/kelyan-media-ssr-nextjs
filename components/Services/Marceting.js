@@ -7,17 +7,18 @@ class Marceting extends Component {
             <div className="Marceting">
 
                 <div className="container">
-                    <h3 className="text-center styles_typicalWrapper__1_Uvh">Что вы получите от реального маркетинга?</h3>
+                    <h3 className="text-center styles_typicalWrapper__1_Uvh ml-auto mr-auto">Что вы получите от реального
+                        маркетинга?</h3>
                     <div className="row">
                         <div className="col-6">
-                            <h3  className="styles_typicalWrapper__1_Uvh"
+                            <h3 className="styles_typicalWrapper__1_Uvh"
                             >
                                 Маркетинговый отдел
                             </h3>
                             <p>
-                                Сотрудничая с нами вы получаете целую команду специалистов которая будет заниматься
-                                продвижением и позиционированием вашего
-                                бренда на рынке
+                                Важен не только стиль логотипа, но и его способность передать смысл и идею вашей
+                                компании. Большую роль играет сочетание визуального посыла и включающих в него атрибутов
+                                различия.
                             </p>
                         </div>
 
@@ -30,19 +31,19 @@ class Marceting extends Component {
                             <img src="/img/service/124.png" className="mt-5 w-100" alt="no img..."/>
                         </div>
                         <div className="col-6">
-                            <h3  className="styles_typicalWrapper__1_Uvh">
+                            <h3 className="styles_typicalWrapper__1_Uvh">
                                 Комплексный подход
                             </h3>
                             <p>
-                                Вы не просто получаете продвижение в интернете, а полный пакет услуг благодаря которым с
-                                самых разных каналов трафика вы будете получать заявки и клиентов
+                                От того, как используются цвета и расположение ключевых элементов, зависит узнаваемость
+                                и ценность вашей компании.
                             </p>
                         </div>
 
                     </div>
 
 
-                    <h3  className="styles_typicalWrapper__1_Uvh">
+                    <h3 className="styles_typicalWrapper__1_Uvh">
                         Что входит в реальный маркетинг?
                     </h3>
                     <div className="row serviceAll">
@@ -58,22 +59,22 @@ class Marceting extends Component {
                         <div className="col-4">
                             <img src="/img/service/q1(9).svg" alt=""/>
                             <h1>Таргетированная реклама</h1>
-                            <p>Вашу рекламу увидит именно ваши потенциальные клиенты в соцсетях</p>
+                            <p>Вашу рекламу увидят именно ваши потенциальные клиенты</p>
                         </div>
 
                         <div className="col-4">
                             <img src="/img/service/q1(8).svg" alt=""/>
                             <h1>Создание сайтов</h1>
                             <p>
-                                Разработаем сайты любой сложности, начиная от недорогих, заканчивая самыми мощными
+                                Разработаем сайты любой сложности, начиная с бюджетных, заканчивая самыми мощными
                             </p>
                         </div>
 
                         <div className="col-6 text-center">
                             <img src="/img/service/q1(7).svg" alt=""/>
-                            <h1>SEO</h1>
+                            <h1 className="mb-0">SEO</h1>
                             <p>
-                                Повысим ваш сайт в лидирующие позиции в поисковых системах
+                                Повысим ваш сайт до лидирующих позиций в поисковых системах
                             </p>
                         </div>
 
@@ -81,6 +82,7 @@ class Marceting extends Component {
                         <div className="col-6 text-center">
                             <img src="/img/service/q1(5).svg" alt=""/>
                             <h1>Реклама в СМИ</h1>
+                            <p>Используем лучшие инструменты продвижения в рекламных компаниях</p>
                         </div>
 
                         <div className="col-4">
@@ -101,7 +103,6 @@ class Marceting extends Component {
                         </div>
 
 
-
                         <div className="col-4">
                             <img src="/img/service/q1(2).svg" alt=""/>
                             <h1>Дизайн</h1>
@@ -112,7 +113,7 @@ class Marceting extends Component {
                     </div>
 
 
-                    <p className="sel" >
+                    <p className="sel">
                         Также пакет услуг может собираться индивидуально под ваши цели
                     </p>
                 </div>

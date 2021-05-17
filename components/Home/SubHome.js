@@ -4,10 +4,11 @@ class SubHome extends Component {
     render() {
         return (
             <div>
-                <div  className="container subHome">
+                <div  className="container subHome pt-5 " id="subHome">
                     <h2 data-aos="fade-right"
                         data-aos-easing="linear"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000"
+                   >
                         Почему  стоит обратиться к нам?
                     </h2>
                     <h3 data-aos="fade-right"

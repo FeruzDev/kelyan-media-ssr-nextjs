@@ -29,21 +29,29 @@ class Footer extends Component {
                           wrapper="h3"
                       />
 
-                      <div className="row">
-                          <a href="#!" data-aos="fade-up"
+
+                      <h2 data-aos="fade-right"
+                          data-aos-easing="linear"
+                          data-aos-duration="1000"
+                          className="mb-5"
+                      > Свяжитесь с нами через социальные сети</h2>
+
+                      <div className="row ">
+                          <a href=" https://t.me/kelyanmedia" target="_blank" data-aos="fade-up"
                              data-aos-easing="linear"
                              data-aos-duration="1200"
                           >
                               <img src="/img/icon/tg.svg" alt=""/>
                           </a>
-                          <a href="#!" data-aos="fade-up"
+                          <a href="https://instagram.com/kelyanmedia?igshid=hgtqu4jwv1b1" target="_blank" data-aos="fade-up"
                              data-aos-easing="linear"
                              data-aos-duration="1200"
                              data-aos-delay="200"
                           >
                               <img src="/img/icon/ins.svg" alt=""/>
                           </a>
-                          <a href="#!"
+                          <a href="https://www.facebook.com/kelyanmedia/"
+                             target="_blank"
                              data-aos="fade-up"
                              data-aos-easing="linear"
                              data-aos-duration="1200"
@@ -53,14 +61,10 @@ class Footer extends Component {
                           </a>
                       </div>
 
-                      <h2 data-aos="fade-right"
-                          data-aos-easing="linear"
-                          data-aos-duration="1000"
-
-                      >Вы ещё думаете заказать у нас пакет или нет?</h2>
                       <h2 data-aos="fade-left"
                           data-aos-easing="linear"
                           data-aos-duration="1000"
+                          className="mt-5"
                       >Телефон для связи <img src="/img/icon/phone.svg" className="ml-3" alt=""/> <span>+998 33 339 3334</span></h2>
                       <p data-aos="fade-up"
                          data-aos-easing="linear"

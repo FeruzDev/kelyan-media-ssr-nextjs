@@ -16,14 +16,12 @@ class Clients extends Component {
     }
 
 
-
-
     componentDidMount() {
         this.myInterval = setInterval(() => {
-            const { seconds, minutes } = this.state
+            const {seconds, minutes} = this.state
 
             if (seconds > 0) {
-                this.setState(({ seconds }) => ({
+                this.setState(({seconds}) => ({
                     seconds: seconds - 1
                 }))
             }
@@ -31,7 +29,7 @@ class Clients extends Component {
                 if (minutes === 0) {
                     clearInterval(this.myInterval)
                 } else {
-                    this.setState(({ minutes }) => ({
+                    this.setState(({minutes}) => ({
                         minutes: minutes - 1,
                         seconds: 59
                     }))
@@ -48,10 +46,8 @@ class Clients extends Component {
     }
 
 
-
-
     render() {
-        const { minutes, seconds } = this.state
+        const {minutes, seconds} = this.state
         const settings = {
             dots: false,
             infinite: true,
@@ -80,29 +76,28 @@ class Clients extends Component {
                     </h3>
 
 
-                        <Slider {...settings} >
-                            <div className="carouselItem">
-                                <img src="/img/progress.png" alt=""/>
-                            </div>
-                            <div className="carouselItem">
-                                <img src="/img/dasita.svg" alt=""/>
-                            </div>
-                            <div className="carouselItem">
-                                <img src="/img/paradise.svg" alt=""/>
-                            </div>
-                            <div className="carouselItem">
-                                <img src="/img/thomas.svg" alt=""/>
-                            </div>
+                    <Slider {...settings} >
+                        <div className="carouselItem">
+                            <img src="/img/progress.png" alt=""/>
+                        </div>
+                        <div className="carouselItem">
+                            <img src="/img/dasita.svg" alt=""/>
+                        </div>
+                        <div className="carouselItem">
+                            <img src="/img/paradise.svg" alt=""/>
+                        </div>
+                        <div className="carouselItem">
+                            <img src="/img/thomas.svg" alt=""/>
+                        </div>
 
-                        </Slider>
-
-
+                    </Slider>
 
 
                     <h3 data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="1000"
 
+                        id="request"
                         className="  mr-auto ml-auto "
                         className="styles_typicalWrapper__1_Uvh"
 
@@ -112,8 +107,8 @@ class Clients extends Component {
                     <p data-aos="fade-up"
                        data-aos-easing="linear"
                        data-aos-duration="1000">
-                        Значит, можете самостоятельно убедиться в нашем навыке раскрывать продукт перед целевой
-                        аудиторией!
+                        Можете самостоятельно убедиться в нашем навыке качественно раскрывать продукт и
+                        взаимодействовать с целевой аудиторией!
 
                     </p>
                     <p data-aos="fade-up"
@@ -121,9 +116,10 @@ class Clients extends Component {
                        data-aos-duration="1000"
 
                        data-aos-delay="300"
+
                     >
-                        Оставьте свои контактные данные, обсудим ваш проект и начнем готовить концепции, чтобы донести
-                        суть вашего предложения в дизайне
+                        Оставьте свои контактные данные и мы обсудим ваш проект, после чего начнем готовить подходящие
+                        концепции для того, чтобы донести суть вашего предложения через дизайн.
                     </p>
 
                     <div className="row">
@@ -137,7 +133,7 @@ class Clients extends Component {
 
                             <div className="row justify-content-center mb-5">
                                 <div className="hour">
-                                    <div />
+                                    <div/>
                                     <h1>
                                         {minutes}
                                     </h1>
@@ -149,25 +145,23 @@ class Clients extends Component {
                                 </h6>
 
                                 <div className="hour">
-                                    <div />
+                                    <div/>
                                     <h1>
                                         {seconds < 10 ? `0${seconds}` : seconds}
                                     </h1>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 text-center"
+                        <div className="col-md-6  "
 
                              data-aos="fade-left"
                              data-aos-easing="linear"
                              data-aos-duration="1000">
 
-                            <p className="mb-5">
+                            <p className="mb-5  ">
                                 Оставьте заявку на бесплатный разбор вашего бизнеса
                             </p>
-                            <Link href="#">
-                                Оставить заявку
-                            </Link>
+                            <Link href='/application' ><a className="rounded-pill">Оставить заявку</a></Link>
                         </div>
 
                     </div>

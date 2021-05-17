@@ -23,11 +23,9 @@ class Company extends Component {
                             wrapper="h3"
                         />
 
-                        <p >
-                            Наш подход работы является системным и каждое действие сверяется рабочей проработаной
-                            методологий дающей нужные результаты
+                        <p>
+                            Каждое действие сверяется с рабочей проработанной методологией, дающей нужные результаты
                         </p>
-
 
 
                     </div>
@@ -37,9 +35,6 @@ class Company extends Component {
                              data-aos-duration="1000"
                              src="/img/reb1.png" alt=""/>
                     </div>
-
-
-
 
 
                     <div className="col-6">
@@ -58,23 +53,22 @@ class Company extends Component {
                             wrapper="h3"
                         />
 
-                        <p    >Рекламное агентство появилось летом 2020 года и каждый день становится больше, набирает
-                            обороты, увеличивает комьюнити в социальных сетях и достигает все более амбициозных
-                            целей</p>
+                        <p>Рекламное агентство появилось летом 2020 года и каждый день становится больше, набирая
+                            обороты, увеличивая комьюнити в социальных сетях и достигая все более амбициозных целей</p>
                     </div>
 
 
                     <div className="col-6" data-aos="fade-right"
                          data-aos-easing="linear"
-                         data-aos-duration="1000" >
+                         data-aos-duration="1000">
                         <Typical
                             steps={[' Наша команда', 1000]}
                             loop={1}
                             wrapper="h3"
                         />
 
-                        <p  >Наш подход работы является системным и каждое действие сверяется рабочей проработаной
-                            методологий дающей нужные результаты</p>
+                        <p>Наша команда состоит из опытных специалистов: каждый знает свое дело и готов вкладываться в
+                            проекты на все 100%</p>
                     </div>
                     <div className="col-6">
                         <img src="/img/reb3.png"
@@ -87,28 +81,17 @@ class Company extends Component {
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
                 <div className="ourTeam">
                     <div className="container">
-                        <h2  data-aos="fade-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="1500"
+                        <h2 data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
                         >Кто с вами будет работать?</h2>
-                        <h3   data-aos="fade-right"
-                              data-aos-easing="linear"
-                              data-aos-duration="1500"
-                         data-aos-delay="500"
-                              className="styles_typicalWrapper__1_Uvh"
+                        <h3 data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
+                            data-aos-delay="500"
+                            className="styles_typicalWrapper__1_Uvh"
 
                         >НАША КОМАНДА</h3>
 
@@ -116,8 +99,8 @@ class Company extends Component {
                         <div className="ourList">
                             <div className="ourTeamCard ">
                                 <img
-                                     className="w-100"
-                                     src="/img/ourTeam1.png" alt=""/>
+                                    className="w-100"
+                                    src="/img/ourTeam1.png" alt=""/>
                                 <h1
                                 >Алтыбаев Руслан</h1>
                                 <span>Дизайнер</span>
@@ -129,7 +112,7 @@ class Company extends Component {
 
                                     className="w-100"
                                     src="/img/ourTeam2.png" alt=""/>
-                                <h1  >Агаси Аракелян </h1>
+                                <h1>Агаси Аракелян </h1>
                                 <span>Маркетолог</span>
                             </div>
 
@@ -139,7 +122,7 @@ class Company extends Component {
                                     className="w-100"
                                     src="/img/ourTeam3.png"
                                     alt=""/>
-                                <h1  >Данил Лапин </h1>
+                                <h1>Данил Лапин </h1>
                                 <span>Арт директор</span>
                             </div>
 
@@ -150,18 +133,18 @@ class Company extends Component {
                                     className="w-100"
                                     src="/img/ourTeam4.png"
                                     alt=""/>
-                                <h1   >Хусан Мадамбеков </h1>
+                                <h1>Хусан Мадамбеков </h1>
                                 <span>Дизайнер</span>
                             </div>
 
 
                             <div className="ourTeamCard ">
                                 <img
-                                     className="w-100"
+                                    className="w-100"
 
-                                     src="/img/ourTeam5.png"
-                                     alt=""/>
-                                <h1  >Хашимова Севара </h1>
+                                    src="/img/ourTeam5.png"
+                                    alt=""/>
+                                <h1>Хашимова Севара </h1>
                                 <span>Копирайтер</span>
                             </div>
 
@@ -170,7 +153,7 @@ class Company extends Component {
                                 <img className="w-100"
                                      src="/img/ourTeam6.png"
                                      alt=""/>
-                                <h1  >Алина Осипова</h1>
+                                <h1>Алина Осипова</h1>
                                 <span>Аккаунт менеджер</span>
                             </div>
                         </div>

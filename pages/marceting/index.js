@@ -33,13 +33,8 @@ const CompanyPage = (props) => {
         <>
             <Navbar history={props.history}/>
             <MarcetingHeader />
-
-
             <Marceting/>
-
-
             <Application />
-
             <Cooperation/>
             <Cases/>
             <SerContact/>

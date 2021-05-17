@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 
 const HomePage = (props) => {
 
-
+    const [isLoading, setIsLoading] = useState(true)
 
   useEffect(()=>{
 
@@ -21,7 +21,8 @@ const HomePage = (props) => {
       document.getElementById("desVid").style.display = "none"
       document.getElementById("mobVid").style.display = "none"
       document.getElementById("kotLoader").style.display = "none"
-    }, 4000)
+        setIsLoading(false);
+    }, 3500)
     AOS.init({
       once: true
     });
@@ -33,26 +34,20 @@ const HomePage = (props) => {
   }, [])
 
 
-  return (
-      <div className="overflow-hidden">
+  return !isLoading ?
+    <div className="overflow-hidden">
+        <Navbar history={props.history} />
+        <Jumbotron />
+        <SubHome/>
+        <Services />
+        <Benefits />
+        <Cases />
+        <Clients />
+        <Footer />
+    </div> : ""
 
 
-
-
-                <Navbar history={props.history} />
-                <Jumbotron />
-                <SubHome/>
-                <Services />
-                <Benefits />
-                <Cases />
-                <Clients />
-
-                <Footer />
-
-
-
-      </div>
-  );
+  ;
 };
 
 export default HomePage;

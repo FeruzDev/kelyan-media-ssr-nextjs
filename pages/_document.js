@@ -10,6 +10,9 @@ class MyDocument extends Document {
                   {
 
                       `
+                      body{
+                      background-color: #120212;
+                      }
                       .Loader {
                       margin: 0;
                       padding: 0;
@@ -70,10 +73,8 @@ class MyDocument extends Document {
               </Head>
               <body>
             <div className="Loader" id="kotLoader">
-                <video id="desVid" src="/video/des.mp4 " className="videoLoaderDes" muted playsinline loop
-                       autoPlay />
-                <video id="mobVid" src="/video/mob.mp4 " className="videoLoaderMob"  muted playsinline loop
-                       autoPlay />
+                <video id="desVid" src="/video/des1.webm"  className="videoLoaderDes" autoPlay loop muted playsInline />
+                <video id="mobVid" src="/video/mob1.webm " className="videoLoaderMob"  autoPlay loop muted playsInline />
             </div>
 
               <Main />

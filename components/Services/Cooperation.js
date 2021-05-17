@@ -12,7 +12,7 @@ class Cooperation extends Component {
 
                     <div className="copItem ">
                         <div className="numberTitle">
-                            <span>01</span><h1>АНАЛИЗ   <img src="/img/icon/Vector 1.png" alt=""/>
+                            <span>01</span><h1>АНАЛИЗИРУЕМ   <img src="/img/icon/Vector 1.png" alt=""/>
                         </h1>
                         </div>
                         <p>Исследуем вашу компанию на рынке, конкурентов, для кого ориентирован ваш бизнес и как вы его
