@@ -6,6 +6,8 @@ import Trafic from "../../components/seo/Trafic";
 import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
+import CraudPr from "../../components/seo/CraudPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -24,6 +26,11 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Услуги крауд-маркетинга: Заказать и купить крауд ссылки для сайта в студии — KelyanMedia</title>
+                <meta name="description" content="Дешевый крауд маркетинг для вашего сайта ✓  Закажите крауд-ссылки в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по круад-маркетингу
+"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/craud.jpg" className="w-100" alt=""/>
@@ -32,8 +39,7 @@ const Seo = () => {
             для вашего бизнеса </h3>
             <Trafic/>
             <Cases/>
-            <Promoting />
-            <Discuss/>
+            <CraudPr/>
             <Footer/>
         </div>
     );

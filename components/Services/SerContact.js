@@ -1,7 +1,34 @@
 import React, {Component} from 'react';
+import axios from "axios";
 
 
 class SerContact extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            fio : '',
+            phone: '',
+
+        }
+    }
+
+    changeHandler =e =>{
+        this.setState({[e.target.name] : e.target.value})
+    }
+
+    submitHandler = e =>{
+        e.preventDefault();
+
+
+
+        axios.post("https://api.kelyanmedia.com/new-bid", this.state)
+            .then(res =>{
+
+            })
+            .catch(error =>{
+                console.log(error)
+            })
+    }
 
 
     render() {
@@ -23,19 +50,10 @@ class SerContact extends Component {
 
                                 >Заполните форму ниже и мы с вами свяжемся.</p>
 
-
-                            <form>
-                               <div>
-                                   <label htmlFor="name">Ваше имя</label>
-                                   <input  className="form-control" type="text" id="name"/>
-                               </div>
-
-                             <div>
-                                 <label htmlFor="name">Телефон</label>
-                                 <input  className="form-control" type="text" id="name"/>
-                             </div>
-
-                                <button className="btn btn-block mt-4">Подтвердить</button>
+                            <form className="appLicationRequest" onSubmit={this.submitHandler}>
+                                <input name="fio"   type="text" placeholder="ФИО " className="form-control mt-5" onChange={this.changeHandler}/>
+                                <input type="text" name="phone"  placeholder="Телефонный номер" className="form-control mt-4" onChange={this.changeHandler}/>
+                                <button type="submit" className="btn mt-3 btn-block">Отправить</button>
                             </form>
                         </div>
                     </div>

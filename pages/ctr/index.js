@@ -7,6 +7,7 @@ import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
 import CtrPr from "../../components/seo/CtrPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -25,6 +26,10 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Заказать увеличение кликабельности сайта в поиске от KelyanMedia </title>
+                <meta name="description" content="Мощное повышение кликаьельности вашего сайта ✓  Закажите оптимизацию CTR в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по CTR"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/ctr.jpg" className="w-100" alt=""/>

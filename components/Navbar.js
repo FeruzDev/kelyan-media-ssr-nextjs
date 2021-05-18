@@ -18,7 +18,9 @@ const Navbar = (props) => {
         <div className="Navbar ">
 
             <div className="sideMenu  ">
-                <img className="telIcon" src="/img/icon/tel.png" alt=""/>
+
+                <a href=" tel:+998333393334" target="_blank" >    <img className="telIcon" src="/img/icon/tel.png" alt=""/></a>
+
                 <Link  href="/"><a className="navbar-brand ml-auto mr-auto">KELYAN<b >MEDIA</b></a></Link>
                 <button onClick={toggleTrueFalse} className="  bg-transparent border-0 sibeBarToggle">
                     <img  src="../img/icon/burger.png" alt=""/>

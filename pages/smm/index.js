@@ -8,6 +8,7 @@ import Smm from "../../components/Services/Smm";
 import Cases from "../../components/Home/Cases";
 import Offers from "../../components/Services/Offers";
 import Application from "../../components/Services/Application";
+import Head from "next/dist/next-server/lib/head";
 
 const SmmPage = (props) => {
 
@@ -26,6 +27,10 @@ const SmmPage = (props) => {
 
     return (
         <>
+            <Head>
+                <title>Заказать SMM продвижение в социальных сетях в Facebook, Instagram в Ташкенте</title>
+                <meta name="description" content="Запуск рекламы Instagram и Facebook в Узбекистане ✓  Заказать настройку таргетинговой рекламы в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SMM маркетингу"/>
+            </Head>
             <Navbar history={props.history}/>
             <SmmHeader   />
 

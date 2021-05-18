@@ -59,7 +59,7 @@ class Cooperation extends Component {
 
                     <div className="copItem  ">
                         <div className="numberTitle">
-                            <span>06</span><h1>ЗАПУСК   <img className="rightImg" src="/img/icon/Vector 6.png" alt=""/></h1>
+                            <span>06</span><h1>ЗАПУСК <img className="rightImg" src="/img/icon/Vector 6.png" alt=""/></h1>
                         </div>
                         <p>После всех подготовительных работ запускаем полноценную рекламную компанию на основании
                             составленных прогнозов и стратегии продвижения</p>

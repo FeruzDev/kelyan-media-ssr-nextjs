@@ -6,6 +6,7 @@ import Trafic from "../../components/seo/Trafic";
 import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -24,6 +25,10 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Заказать оптимизацию конверсии сайта (CRO) недорого в Ташкенте</title>
+                <meta name="description" content="Повышение продаж вашего сайта ✓  Закажите оптимизацию коэффициента конверсии в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по CRO"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/conversi.jpg" className="w-100" alt=""/>

@@ -7,6 +7,7 @@ import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
 import SermPr from "../../components/seo/SermPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -25,6 +26,10 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>SERM – маркетинг: Заказать управление репутацией для бизнеса в KelyanMedia </title>
+                <meta name="description" content="Управление репутацией в интернете для вашего бизнеса ✓  Закажите SERM маркетинг в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SERM маркетингу"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/SERM.jpg" className="w-100" alt=""/>

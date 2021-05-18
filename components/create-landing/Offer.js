@@ -38,7 +38,7 @@ const Offer = () => {
                             src="/img/icon/f3.png"
                             alt=""/>
                         <h4>
-                            Почта бесплатно
+                            Телеграм бот
                         </h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda

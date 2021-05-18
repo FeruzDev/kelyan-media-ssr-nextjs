@@ -142,9 +142,9 @@ class Company extends Component {
                                 <img
                                     className="w-100"
 
-                                    src="/img/ourTeam5.png"
+                                    src="/img/ab1.png"
                                     alt=""/>
-                                <h1>Хашимова Севара </h1>
+                                <h1>Ахмедова Нигина </h1>
                                 <span>Копирайтер</span>
                             </div>
 
@@ -155,6 +155,26 @@ class Company extends Component {
                                      alt=""/>
                                 <h1>Алина Осипова</h1>
                                 <span>Аккаунт менеджер</span>
+                            </div>
+
+
+                            <div className="ourTeamCard ">
+                                <img className="w-100"
+                                     src="/img/ab5.png"
+
+                                     alt=""/>
+                                <h1>Герасимов Борис</h1>
+                                <span>Менеджер по продажам</span>
+                            </div>
+
+
+                            <div className="ourTeamCard ">
+                                <img className="w-100"
+                                     src="/img/ab6.png"
+
+                                     alt=""/>
+                                <h1>Недогарок Артем</h1>
+                                <span>SEO-специалист</span>
                             </div>
                         </div>
                     </div>

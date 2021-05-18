@@ -42,7 +42,7 @@ class Cases extends Component {
 
                 <div className="w-100 text-center">
 
-                    <button>Все проекты <img src="/img/icon/arrow.png" alt=""/></button>
+                    {/*<Link href="/cases"><a  >Все проекты <img src="/img/icon/arrow.png" alt=""/></a></Link>*/}
                 </div>
             </div>
         );

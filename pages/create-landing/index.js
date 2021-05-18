@@ -10,6 +10,7 @@ import Technology from "../../components/create-landing/Technology";
 import Order from "../../components/create-landing/Order";
 import Accordion from "../../components/create-landing/Accordion";
 import BannersCases from "../../components/create-landing/BannersCases";
+import Head from "next/dist/next-server/lib/head";
 const CreateLending = (props    ) => {
 
 
@@ -28,6 +29,10 @@ const CreateLending = (props    ) => {
 
     return (
         <>
+            <Head>
+                <title>Создание сайта в Ташкенте, разработка сайта от студии  KelyanMedia</title>
+                <meta name="description" content="Разработка сайтов под ключ в Узбекистане от судии 【KelyanMedia】 Создаем сайты на заказ в Ташкенте, выгодные условия. Мы поможем  создать продающий web-сайт!"/>
+            </Head>
             <Navbar history={props.history}/>
             <div className="overflow-hidden">
                 <img src="/img/service/createLanding.jpg" className="w-100" alt=""/>

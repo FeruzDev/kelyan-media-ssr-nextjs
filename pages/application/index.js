@@ -23,7 +23,7 @@ class Index extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
-                console.log(res)
+
             })
             .catch(error =>{
                 console.log(error)

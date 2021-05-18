@@ -6,6 +6,8 @@ import Trafic from "../../components/seo/Trafic";
 import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
+import TextPr from "../../components/seo/TextPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -24,6 +26,10 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Заказать продвижение сайта по ключевым словам в Ташкенте - KelyanMedia </title>
+                <meta name="description" content="Продвижение сайта по нужным ключевым словам в Google и Yandex ✓  Закажите продвижение сайта в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SEO"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/kewywords.jpg" className="w-100" alt=""/>
@@ -33,8 +39,8 @@ const Seo = () => {
             </h3>
             <Trafic/>
             <Cases/>
-            <Promoting />
-            <Discuss/>
+
+            <TextPr/>
             <Footer/>
         </div>
     );

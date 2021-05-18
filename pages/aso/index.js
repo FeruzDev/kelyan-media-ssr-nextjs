@@ -7,6 +7,7 @@ import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
 import ASOPr from "../../components/seo/ASOPr";
+import Head from "next/head";
 
 const Seo = () => {
 
@@ -25,6 +26,12 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Продвижение мобильных приложений для Android и IOS от KelyanMedia  </title>
+                <meta name="description" content=" Эффективное продвижение мобильный приложений в Play Market и App Store ✓  Закажите продвижение приложения в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по ASO маркетингу
+
+ "/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/ASO.jpg" className="w-100" alt=""/>

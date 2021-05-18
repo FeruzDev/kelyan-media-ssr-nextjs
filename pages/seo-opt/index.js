@@ -7,6 +7,7 @@ import Cases from "../../components/Home/Cases";
 import Promoting from "../../components/seo/Promoting";
 import Discuss from "../../components/seo/Discuss";
 import SeoOptPr from "../../components/seo/SeoOptPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -25,6 +26,10 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Заказать SEO оптимизацию сайта в Ташкенте от студии KelyanMedia </title>
+                <meta name="description" content="Правильная СЕО оптимизация в Узбекистане ✓  Закажите оптимизацию сайта в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по оптимизации"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/seoOpt.jpg" className="w-100" alt=""/>

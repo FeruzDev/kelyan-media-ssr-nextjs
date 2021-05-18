@@ -1,11 +1,10 @@
 import React, {useEffect} from 'react';
-import SeoHeader from "../../components/seo/SeoHeader";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Trafic from "../../components/seo/Trafic";
 import Cases from "../../components/Home/Cases";
-import Promoting from "../../components/seo/Promoting";
-import Discuss from "../../components/seo/Discuss";
+import AuditPr from "../../components/seo/AuditPr";
+import Head from "next/dist/next-server/lib/head";
 
 const Seo = () => {
 
@@ -24,6 +23,12 @@ const Seo = () => {
 
     return (
         <div>
+            <Head>
+                <title>Заказать полный аудит сайта: SEO аудит, анализ сайта в Узбекистане - KelyanMedia </title>
+                <meta name="description" content="Комплексный Аудит вашего сайта ✓  Закажите полный аудит сайта в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по аудиту
+
+"/>
+            </Head>
             <Navbar />
             <div className="overflow-hidden">
                 <img src="/img/seo/audit.jpg" className="w-100" alt=""/>
@@ -33,8 +38,7 @@ const Seo = () => {
             </h3>
             <Trafic/>
             <Cases/>
-            <Promoting />
-            <Discuss/>
+            <AuditPr />
             <Footer/>
         </div>
     );
