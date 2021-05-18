@@ -2717,21 +2717,7 @@ html{
 
 
 .ProLanding{
-  h3{
-    font-size: 36px;
-    margin : 50px auto;
 
-    font-weight: 600;
-    background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #FFD66B;
-
-    display: table;
-
-
-  }
 
   .container{
     .row{
@@ -3307,6 +3293,11 @@ html{
 
 
 @media  (max-width: 765px) {
+
+  h3 {
+    font-size: 18px !important;
+
+  }
 
   #__next{
     overflow-x: hidden !important;

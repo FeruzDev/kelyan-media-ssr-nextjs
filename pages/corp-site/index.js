@@ -9,6 +9,7 @@ import Offer from "../../components/create-landing/Offer";
 import Technology from "../../components/create-landing/Technology";
 import Order from "../../components/create-landing/Order";
 import Accordion from "../../components/create-landing/Accordion";
+import BannersCases from "../../components/create-landing/BannersCases";
 const CorpSite = (props    ) => {
 
 
@@ -33,7 +34,7 @@ const CorpSite = (props    ) => {
             <ProLanding />
             <Offer/>
             <Technology />
-            <Cases/>
+            <BannersCases/>
             <Order />
             <Accordion/>
             <SerContact />

@@ -1,6 +1,35 @@
 import React, {Component} from 'react';
+import axios from "axios";
 
 class ConsultationApplication extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            fio : '',
+            phone: '',
+
+        }
+    }
+
+    changeHandler =e =>{
+        this.setState({[e.target.name] : e.target.value})
+    }
+
+    submitHandler = e =>{
+        e.preventDefault();
+
+
+
+        axios.post("https://api.kelyanmedia.com/new-bid", this.state)
+            .then(res =>{
+
+            })
+            .catch(error =>{
+                console.log(error)
+            })
+    }
+
     render() {
         return (
             <div className="ConsultationApplication">
@@ -14,16 +43,18 @@ class ConsultationApplication extends Component {
                           <img src="/img/icon/left-arrow.png" className="arrow" alt="..."/>
                       </div>
                       <div className="col-md-6">
-                          <form >
-                              <input type="text" placeholder="Ваше имя" className="form-control"/>
+                          <form onSubmit={this.submitHandler}>
+                              <input type="text" name="fio" placeholder="Ваше имя" className="form-control" onChange={this.changeHandler}/>
                               <div className="inputNumber">
                                   <img src="/img/icon/flag.svg" alt=""/>
-                                  <input type="text" placeholder="99 8 (99) 999-99-99" className="form-control"/>
+                                  <input type="text"  name="phone" placeholder="99 8 (99) 999-99-99" className="form-control"  onChange={this.changeHandler}/>
                               </div>
 
-                              <input type="email" placeholder="Ваше email" className="form-control"/>
-                              <button className="btn">Заказать консультацию </button>
+                              <button className="btn" type="submit" >Заказать консультацию </button>
                           </form>
+
+ 
+
                       </div>
                   </div>
                 </div>

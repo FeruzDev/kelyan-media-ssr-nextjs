@@ -80,10 +80,10 @@ const ProLanding = () => {
 
                     </div>
                     <div className="col-6 pl-5 pr-5 mobileVersion">
-                        <img src="/img/service/centerImg.jpg" alt=""/>
+                        <img src="/img/z3.jpg" alt=""/>
                     </div>
                     <div className="col-4 pl-5 pr-5 desctopVersion">
-                        <img src="/img/service/centerImg.jpg" alt=""/>
+                        <img src="/img/z3.jpg" alt=""/>
                     </div>
 
 

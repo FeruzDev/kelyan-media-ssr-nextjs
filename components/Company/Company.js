@@ -134,7 +134,7 @@ class Company extends Component {
                                     src="/img/ourTeam4.png"
                                     alt=""/>
                                 <h1>Хусан Мадамбеков </h1>
-                                <span>Дизайнер</span>
+                                <span>Tаргетолог</span>
                             </div>
 
 

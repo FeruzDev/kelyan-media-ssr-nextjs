@@ -5,7 +5,7 @@ const ProLanding = () => {
         <div className="ProLanding">
             <h3 className="pl-5 pr-5 text-center">Погружаемся в ваш бизнес и выносим на сайт все <br/> преимущества вашего продукта</h3>
             <div className="container">
-                <p className=" text-white text-center" style={{padding: "30px 100px"}}>Для начала разберемся, что такое
+                <p className=" text-white text-center" style={{padding: "30px 30px"}}>Для начала разберемся, что такое
                     «промо-сайт». Задача данного типа сайта заключается строго в
                     предоставлении информации о товаре, услуге, бренде и о самой компании в Интернете</p>
                 <div className="row">
@@ -95,10 +95,10 @@ const ProLanding = () => {
 
                     </div>
                     <div className="col-6 pl-5 pr-5 mobileVersion">
-                        <img src="/img/service/centerImg.jpg" alt=""/>
+                        <img src="/img/z1.jpg" alt=""/>
                     </div>
                     <div className="col-4 pl-5 pr-5 desctopVersion">
-                        <img src="/img/service/centerImg.jpg" alt=""/>
+                        <img src="/img/z1.jpg" alt=""/>
                     </div>
 
 
