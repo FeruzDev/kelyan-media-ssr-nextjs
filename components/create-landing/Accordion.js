@@ -91,13 +91,13 @@ const Accordion = () => {
                             >
                                 <h1 className="mr-3">B</h1>
                                 <img src="/img/icon/Line 20.png" alt=""/>
-                                <span className="title-wrapper ml-3">{tab.title}
+                                <span className="title-wrapper ml-3"><p className="text-left pr-4">{tab.title}</p>
                                     <span className={ active === index  ? 'plus' : 'minus'}></span>
                                 </span>
                             </button>
                         </h2>
                         <div id={ 'sect-' + indexCount(index) } className={ active === index  ? 'panel-open' : 'panel-close' }>
-                            <div>
+                            <div className="privateContent">
                                 { tab.content }
                             </div>
                             <img className="ml-3" src="/img/icon/Line 20.png" alt=""/>

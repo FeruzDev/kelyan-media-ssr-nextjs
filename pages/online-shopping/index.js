@@ -31,6 +31,7 @@ const CreateLending = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/banners/onlineShopping.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className=" newPagesTitle">Откройте интернет магазин сегодня с нами,    а продавайте уже завтра</h3>
             <ProLanding />
             <Offer/>
             <Technology />

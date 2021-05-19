@@ -31,6 +31,8 @@ const CorpSite = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/banners/podSite.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="newPagesTitle"> В первую очередь не обновление контента на сайте, а <br/> внедрение новых функций, доработка новых разделов сайта, <br/> оптимизация сайта</h3>
+
             <ProLanding />
             <Offer/>
             <Technology />

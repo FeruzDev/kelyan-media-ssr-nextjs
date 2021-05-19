@@ -3,7 +3,6 @@ import React from 'react';
 const ProLanding = () => {
     return (
         <div className="ProLanding">
-            <h3 className="pl-5 pr-5 text-center">Погружаемся в ваш бизнес и выносим на сайт все <br/> преимущества вашего продукта</h3>
             <div className="container">
                 <p className=" text-white text-center" style={{padding: "30px 30px"}}>Для начала разберемся, что такое
                     «промо-сайт». Задача данного типа сайта заключается строго в

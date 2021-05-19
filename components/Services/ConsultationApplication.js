@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from "axios";
+import {toast, ToastContainer} from "react-toastify";
 
 class ConsultationApplication extends Component {
 
@@ -23,6 +24,7 @@ class ConsultationApplication extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
+                toast.success("Заявка отправлена")
 
             })
             .catch(error =>{
@@ -58,6 +60,8 @@ class ConsultationApplication extends Component {
                       </div>
                   </div>
                 </div>
+                <ToastContainer/>
+
             </div>
         );
     }

@@ -31,6 +31,8 @@ const CorpSite = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/banners/portol.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="newPagesTitle">Разработка порталов любой сложности и тематики, новейшие  технологии в создании web портала для вашего бизнеса и   крупных компаний</h3>
+
             <ProLanding />
             <Offer/>
             <Technology />

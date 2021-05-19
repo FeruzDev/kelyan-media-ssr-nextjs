@@ -3,7 +3,6 @@ import React from 'react';
 const ProLanding = () => {
     return (
         <div className="ProLanding">
-            <h3 className="pl-5 pr-5 text-center">Расширьте возможности своего бизнеса</h3>
             <div className="container">
                 <div className="row">
                     <div className="col-4 desctopVersion">

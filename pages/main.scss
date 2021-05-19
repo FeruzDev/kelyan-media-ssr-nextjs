@@ -99,7 +99,13 @@ html{
       -webkit-text-fill-color: transparent;
 
 
+      font-weight: 600;
 
+    }
+
+    .newPagesTitle{
+      text-align: center;
+      padding: 50px 200px;
     }
 
     .Navbar {
@@ -2343,8 +2349,8 @@ html{
 
   background-image: url("../components/img/bgCon.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-size: 100% 100%  ;
+  background-size: cover ;
   margin-top: 100px;
   position: relative;
   z-index: 1;
@@ -2718,7 +2724,11 @@ html{
 
 .ProLanding{
 
-
+h3{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
   .container{
     .row{
       flex-wrap: nowrap;
@@ -2797,7 +2807,13 @@ html{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         color: #fff;
+
+        .sloyImg{
+          width: 150px;
+          margin-bottom: 30px;
+        }
         a{
           color: #fff;
           padding: 10px 20px;
@@ -2807,6 +2823,18 @@ html{
         a:hover{
           text-decoration: none;
         }
+      }
+    }
+    .col-md-6:nth-child(3), .col-md-6:nth-child(4){
+      .text{
+        background: rgba(255, 255, 255, 0.8);
+
+      }
+      a{
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #000;
       }
     }
     .col-md-6:hover{
@@ -2824,9 +2852,10 @@ html{
     font-size: 36px;
     margin-top: 100px;
     margin-bottom: 50px;
-
     margin-left: auto;
     margin-right: auto;
+
+    text-align: center !important;
     font-weight: 600;
     background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
 
@@ -3062,15 +3091,6 @@ html{
       margin-right: auto;
       text-align: center;
 
-
-
-      background: linear-gradient(90deg, #FFD66B 0%, #E2021A 58.77%, #7B37FF 93.95%);
-
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: #FFD66B;
-
-      display: table;
     }
     h2{
       font-size: 36px;
@@ -3090,12 +3110,13 @@ html{
           width: 180px;
           height: 2px;
           background-color:  #7B37FF;
-          margin-top: 20px;
-          margin-bottom: 30px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
         p{
           font-size: 18px;
           color: #fff;
+
         }
 
     }
@@ -3212,7 +3233,9 @@ html{
 
 
   .title-wrapper {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     width: 100%;
   }
@@ -3297,6 +3320,11 @@ html{
   h3 {
     font-size: 18px !important;
 
+  }
+
+  .newPagesTitle{
+    text-align: center;
+    padding: 30px 30px !important;
   }
 
   #__next{
@@ -3721,8 +3749,132 @@ html{
 
   }
 
+  .accordionTable{
+
+    a {
+      color: transparent;
+    }
+
+    .content {
+      min-height: calc(100vh - 150px);
+      max-width: 500px;
+      margin: 5rem auto 0 auto;
+      padding: 0 1rem;
+    }
+
+    .app-description {
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    button {
+
+      padding: 0;
+      font-size: 12px;
+
+    }
 
 
+
+
+    .title-wrapper {
+      display: flex;
+      position: relative;
+      width: 100%;
+    }
+
+    .minus {
+      content: url('../components/assets/plus.svg');
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      right: 0;
+    }
+
+    .plus {
+      content: url('../components/assets/line.svg');
+
+      width: 24px;
+      height: 24px;
+
+
+    }
+
+    .privateContent{
+      font-size: 12px !important;
+    }
+
+    h1{
+      display: inline;
+      font-size: 64px;
+      margin-right: 16px;
+      margin-left: 16px;
+      font-weight: 600;
+      color: #7B37FF;
+    }
+    img{
+      //margin-top: -55px;
+
+      height: 70px;
+
+    }
+
+  }
+  .BannersCases{
+
+    .row{
+      .col-md-6{
+        position: relative;
+        .sloy{
+
+        }
+        .text{
+
+          .sloyImg{
+            width: 100px;
+            margin-bottom: 20px;
+          }
+          a{
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 10px;
+            border: 2px solid #fff;
+          }
+          a:hover{
+            text-decoration: none;
+          }
+        }
+      }
+      .col-md-6:nth-child(3), .col-md-6:nth-child(4){
+        .text{
+          background: rgba(255, 255, 255, 0.8);
+
+        }
+        a{
+          color: #000;
+          padding: 10px 20px;
+          border-radius: 10px;
+          border: 2px solid #000;
+        }
+      }
+      .col-md-6:hover{
+        .sloy{
+          left: 0;
+        }
+        .text{
+          right: 0;
+        }
+      }
+    }
+  }
 .Promoting{
 
   .container{
@@ -3732,12 +3884,19 @@ html{
 
         h4{
           font-size: 14px !important;
-          margin-top: 20px !important;
+          margin-top: 0px !important;
         }
+    .line{
+      margin-bottom: 5px !important;
+    }
         p{
           font-size: 12px !important;
         }
 
+    .col-md-6{
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
+    }
   }
 }
 
@@ -4487,60 +4646,46 @@ html{
 
   .SerContact{
 
-    background-image: url("../components/img/bgCon.svg");
-    background-repeat: no-repeat;
-    background-size: 160% 100%;
-
-
-    position: relative;
-    z-index: 1;
+    margin-top: 50px;
     .col-md-4{
+      margin-bottom: 12px !important;
+
       h1{
         font-size: 12px;
+        margin-top: 16px;
+
       }
       p{
         font-size: 10px;
       }
 
 
+      label{
+        font-size: 10px;
+        margin-top:12px;
+      }
+
+
+      button{
+        width: 50%;
+        font-size: 12px;
+        margin: 0 auto;
+      }
       form{
-
         display: flex;
-
         flex-wrap: wrap;
-        div{
-          width: 50%;
-          label{
-            font-size: 10px;
-            margin-top: 20px;
-          }
 
-          input{
-            height: 30px;
-            width: 95%;
-          }
-        }
-
-        button{
+        input{
+          width: 45%;
+          font-size: 12px;
+          margin-top: 0 !important;
+          margin-right: 10px;
           height: 30px;
-          width: 50%;
-          font-size: 10px ;
-          margin-left: 50%;
         }
       }
     }
   }
 
-  .SerContact::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 111;
-  }
 
 
 
@@ -4732,6 +4877,7 @@ html{
       .row{
         padding-top: 0px;
         display: flex;
+        padding-left: 10px;
         justify-content: center;
         .box{
           margin-right:  10px;
@@ -4823,7 +4969,7 @@ html{
     .container{
       .row{
         .col-md-6{
-          margin-top: 70px;
+          margin-top: 20px;
           .row{
             .col-2{
               padding-right: 5px;

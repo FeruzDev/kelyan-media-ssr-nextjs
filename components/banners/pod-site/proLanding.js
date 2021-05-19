@@ -3,7 +3,6 @@ import React from 'react';
 const ProLanding = () => {
     return (
         <div className="ProLanding">
-            <h3 className="pl-5 pr-5 text-center"> В первую очередь не обновление контента на сайте, а <br/> внедрение новых функций, доработка новых разделов сайта, <br/> оптимизация сайта</h3>
             <div className="container">
                 <div className="row">
                     <div className="col-4 desctopVersion">

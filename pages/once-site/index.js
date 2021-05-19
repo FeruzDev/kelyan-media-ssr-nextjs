@@ -31,6 +31,8 @@ const CorpSite = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/banners/onceSite.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="newPagesTitle">Продающие одностраничные лендинги как <br/>эффективный инструмент продаж</h3>
+
             <ProLanding />
             <Offer/>
             <Technology />

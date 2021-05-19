@@ -31,6 +31,8 @@ const CorpSite = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/banners/startUp.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="newPagesTitle" > Наша команда поможет клиентам создавать сайты для стартапов различных бизнес-моделей </h3>
+
             <ProLanding />
             <Offer/>
             <Technology />

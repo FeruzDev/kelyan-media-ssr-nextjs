@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from "axios";
-
+import {toast, ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 class SerContact extends Component {
     constructor(props) {
@@ -23,11 +24,21 @@ class SerContact extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
+                toast.success("Заявка отправлена");
 
             })
             .catch(error =>{
                 console.log(error)
             })
+
+
+
+
+        this.setState({
+            fio : '',
+            phone: '',
+        });
+
     }
 
 
@@ -51,13 +62,14 @@ class SerContact extends Component {
                                 >Заполните форму ниже и мы с вами свяжемся.</p>
 
                             <form className="appLicationRequest" onSubmit={this.submitHandler}>
-                                <input name="fio"   type="text" placeholder="ФИО " className="form-control mt-5" onChange={this.changeHandler}/>
-                                <input type="text" name="phone"  placeholder="Телефонный номер" className="form-control mt-4" onChange={this.changeHandler}/>
+                                <input name="fio"   type="text" placeholder="Ваше имя " className="form-control mt-5" onChange={this.changeHandler}/>
+                                <input type="text" name="phone"  placeholder="Телефон" className="form-control mt-4" onChange={this.changeHandler}/>
                                 <button type="submit" className="btn mt-3 btn-block">Отправить</button>
                             </form>
                         </div>
                     </div>
                 </div>
+                <ToastContainer/>
             </div>
         );
     }

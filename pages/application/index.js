@@ -1,14 +1,15 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 import axios from "axios"
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import {ToastContainer , toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 class Index extends Component {
     constructor(props) {
         super(props);
         this.state = {
             fio : '',
             phone: '',
-
         }
     }
 
@@ -23,13 +24,30 @@ class Index extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
-
+                toast.success("Заявка отправлена")
+                console.log("ketdi")
             })
             .catch(error =>{
                 console.log(error)
             })
+
+
     }
 
+    componentDidMount() {
+
+
+
+            setTimeout(()=>{
+                document.getElementById("desVid").style.display = "none"
+                document.getElementById("mobVid").style.display = "none"
+                document.getElementById("kotLoader").style.display = "none"
+            }, 3000)
+
+
+
+
+    }
 
     render() {
         return (
@@ -43,14 +61,16 @@ class Index extends Component {
                      </div>
                      <div className="col-md-6 ">
                          <form className="appLicationRequest" onSubmit={this.submitHandler}>
-                             <input name="fio"   type="text" placeholder="ФИО " className="form-control" onChange={this.changeHandler}/>
-                             <input type="text" name="phone"  placeholder="Телефонный номер" className="form-control" onChange={this.changeHandler}/>
+                             <input name="fio"   type="text" placeholder="ФИО " id="fioId" className="form-control" onChange={this.changeHandler}/>
+                             <input type="text" name="phone"  placeholder="Телефонный номер" id="phoneId" className="form-control" onChange={this.changeHandler}/>
                              <button type="submit" className="btn">Отправить</button>
                          </form>
                      </div>
                  </div>
                </div>
 
+
+                <ToastContainer/>
                 <Footer/>
             </div>
         );

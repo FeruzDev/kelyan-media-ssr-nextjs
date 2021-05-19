@@ -37,6 +37,7 @@ const CreateLending = (props    ) => {
             <div className="overflow-hidden">
                 <img src="/img/service/createLanding.jpg" className="w-100" alt=""/>
             </div>
+            <h3 className="newPagesTitle">Создадим лендинг с нуля по индивидуальному   заказу с учётом потребностей вашего бизнеса</h3>
             <ProLanding />
             <Offer/>
             <Technology />
