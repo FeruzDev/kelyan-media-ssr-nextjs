@@ -35,26 +35,7 @@ const Navbar = (props) => {
                  <div className="col-md-9">
                      <div className="navbar">
                          <div className="ml-3"><Link href='/' className={`nav-link `}><a className={`nav-link `}>Главная</a></Link></div>
-                         <div  className="ml-3"><Link href='/cases' className={`nav-link `}><a className={`nav-link `}>Кейсы</a></Link></div>
-
-
-
-                         {/*<div className="dropdownFather">*/}
-
-                         {/*    <div className="dropdown-toggle" ><Link href='/services' className={`nav-link`}><a className={`nav-link `}>Услуги</a></Link></div>*/}
-
-                         {/*    <div     className="drobdownMenuFather d-none">*/}
-
-                         {/*        <div className="dropdownMenu">*/}
-                         {/*            <div ><Link href='/smm' ><a className={`nav-link `}>СММ</a></Link></div>*/}
-                         {/*            <div ><Link href='/marceting'><a className={`nav-link `}>Реальный маркетинг</a></Link></div>*/}
-                         {/*            <div ><Link href='/logo-page' ><a className={`nav-link `}>Упаковка</a></Link></div>*/}
-                         {/*            <div ><Link href='/create-landing' ><a className={`nav-link `}>Создание лендигов</a></Link></div>*/}
-                         {/*            <div ><Link href='/seo' ><a className={`nav-link `}>SEO</a></Link></div>*/}
-
-                         {/*        </div>*/}
-                         {/*    </div>*/}
-                         {/*</div>*/}
+                         <div  className="ml-3"><Link href='/cases.html' className={`nav-link `}><a className={`nav-link `}>Кейсы</a></Link></div>
 
                          <div className="dropdownFather">
 
@@ -67,25 +48,25 @@ const Navbar = (props) => {
                                      <div className="container">
                                          <div className="row align-items-baseline">
                                              <div className="col-md-6">
-                                                 <div ><Link href='/create-landing' ><a className={`nav-link `}>Создание landing-page </a></Link></div>
-                                                 <div ><Link href='/online-shopping' ><a className={`nav-link `}>Разработка интернет-магазинов </a></Link></div>
-                                                 <div ><Link href='/corp-site' ><a className={`nav-link `}>Создание корпоративных сайтов </a></Link></div>
-                                                 <div ><Link href='/visitok' ><a className={`nav-link `}>Создание сайта-визитки </a></Link></div>
-                                                 <div ><Link href='/comp-site' ><a className={`nav-link `}>Создание сайта компании </a></Link></div>
-                                                 <div ><Link href='/product-stie' ><a className={`nav-link `}>Создание продающих сайтов </a></Link></div>
-                                                 <div ><Link href='/promo-site' ><a className={`nav-link `}>Создание промо-сайтов </a></Link></div>
-                                                 <div ><Link href='/once-site' ><a className={`nav-link `}> Создание одностраничного сайта</a></Link></div>
+                                                 <div ><Link href='/create-landing.html' ><a className={`nav-link `}>Создание landing-page </a></Link></div>
+                                                 <div ><Link href='/online-shopping.html' ><a className={`nav-link `}>Разработка интернет-магазинов </a></Link></div>
+                                                 <div ><Link href='/corp-site.html' ><a className={`nav-link `}>Создание корпоративных сайтов </a></Link></div>
+                                                 <div ><Link href='/visitok.html' ><a className={`nav-link `}>Создание сайта-визитки </a></Link></div>
+                                                 <div ><Link href='/comp-site.html' ><a className={`nav-link `}>Создание сайта компании </a></Link></div>
+                                                 <div ><Link href='/product-stie.html' ><a className={`nav-link `}>Создание продающих сайтов </a></Link></div>
+                                                 <div ><Link href='/promo-site.html' ><a className={`nav-link `}>Создание промо-сайтов </a></Link></div>
+                                                 <div ><Link href='/once-site.html' ><a className={`nav-link `}> Создание одностраничного сайта</a></Link></div>
 
                                              </div>
                                              <div className="col-md-6">
 
-                                                 <div ><Link href='/portol' ><a className={`nav-link `}> Создание порталов</a></Link></div>
-                                                 <div ><Link href='/online-service' ><a className={`nav-link `}>Разработка онлайн сервисов </a></Link></div>
-                                                 <div ><Link href='/site-catalog' ><a className={`nav-link `}>Разработка сайта-каталога </a></Link></div>
-                                                 <div ><Link href='/pod-site' ><a className={`nav-link `}>Поддержка сайтов </a></Link></div>
-                                                 <div ><Link href='/dor-site' ><a className={`nav-link `}>Доработка сайтов </a></Link></div>
-                                                 <div ><Link href='/ind-project' ><a className={`nav-link `}>Индивидуальные проекты </a></Link></div>
-                                                 <div ><Link href='/startup' ><a className={`nav-link `}>Стартапы </a></Link></div>
+                                                 <div ><Link href='/portol.html' ><a className={`nav-link `}> Создание порталов</a></Link></div>
+                                                 <div ><Link href='/online-service.html' ><a className={`nav-link `}>Разработка онлайн сервисов </a></Link></div>
+                                                 <div ><Link href='/site-catalog.html' ><a className={`nav-link `}>Разработка сайта-каталога </a></Link></div>
+                                                 <div ><Link href='/pod-site.html' ><a className={`nav-link `}>Поддержка сайтов </a></Link></div>
+                                                 <div ><Link href='/dor-site.html' ><a className={`nav-link `}>Доработка сайтов </a></Link></div>
+                                                 <div ><Link href='/ind-project.html' ><a className={`nav-link `}>Индивидуальные проекты </a></Link></div>
+                                                 <div ><Link href='/startup.html' ><a className={`nav-link `}>Стартапы </a></Link></div>
 
                                              </div>
                                          </div>
@@ -109,25 +90,25 @@ const Navbar = (props) => {
                                      <div className="container">
                                          <div className="row align-items-baseline">
                                              <div className="col-md-6">
-                                                 <div ><Link href='/smm' ><a className={`nav-link `}>СММ</a></Link></div>
-                                                 <div ><Link href='/marceting' ><a className={`nav-link `}>Реальный Маркетинг</a></Link></div>
-                                                 <div ><Link href='/seo' ><a className={`nav-link `}>SEO-продвижение</a></Link></div>
-                                                 <div ><Link href='/pps' ><a className={`nav-link `}>PPC - контекстная реклама</a></Link></div>
-                                                 <div ><Link href='/seo-opt' ><a className={`nav-link `}>SEO – оптимизация сайта</a></Link></div>
-                                                 <div ><Link href='/conversi' ><a className={`nav-link `}>CRO – оптимизация коэффициента конверсии</a></Link></div>
-                                                 <div ><Link href='/ctr' ><a className={`nav-link `}>CTR – оптимизация коэффициента кликабельности</a></Link></div>
-                                                 <div ><Link href='/aso' ><a className={`nav-link `}>ASO – продвижение мобильных приложений</a></Link></div>
+                                                 <div ><Link href='/smm.html' ><a className={`nav-link `}>СММ</a></Link></div>
+                                                 <div ><Link href='/marceting.html' ><a className={`nav-link `}>Реальный Маркетинг</a></Link></div>
+                                                 <div ><Link href='/seo.html' ><a className={`nav-link `}>SEO-продвижение</a></Link></div>
+                                                 <div ><Link href='/pps.html' ><a className={`nav-link `}>PPC - контекстная реклама</a></Link></div>
+                                                 <div ><Link href='/seo-opt.html' ><a className={`nav-link `}>SEO – оптимизация сайта</a></Link></div>
+                                                 <div ><Link href='/conversi.html' ><a className={`nav-link `}>CRO – оптимизация коэффициента конверсии</a></Link></div>
+                                                 <div ><Link href='/ctr.html' ><a className={`nav-link `}>CTR – оптимизация коэффициента кликабельности</a></Link></div>
+                                                 <div ><Link href='/aso.html' ><a className={`nav-link `}>ASO – продвижение мобильных приложений</a></Link></div>
 
                                              </div>
                                              <div className="col-md-6">
-                                                 <div ><Link href='/serm' ><a className={`nav-link `}>SERM – маркетинг для бизнеса</a></Link></div>
-                                                 <div ><Link href='/complex' ><a className={`nav-link `}>Комплексное продвижение</a></Link></div>
-                                                 <div ><Link href='/keywords' ><a className={`nav-link `}>Продвижение по ключевым словам</a></Link></div>
-                                                 <div ><Link href='/results' ><a className={`nav-link `}>Продвижение с оплатой за результат</a></Link></div>
-                                                 <div ><Link href='/audit' ><a className={`nav-link `}>Аудит сайта</a></Link></div>
-                                                 <div ><Link href='/craud' ><a className={`nav-link `}>Крауд маркетинг</a></Link></div>
-                                                 <div ><Link href='/text' ><a className={`nav-link `}>Написание текстов</a></Link></div>
-                                                 <div ><Link href='/logo-page' ><a className={`nav-link `}>Упаковка</a></Link></div>
+                                                 <div ><Link href='/serm.html' ><a className={`nav-link `}>SERM – маркетинг для бизнеса</a></Link></div>
+                                                 <div ><Link href='/complex.html' ><a className={`nav-link `}>Комплексное продвижение</a></Link></div>
+                                                 <div ><Link href='/keywords.html' ><a className={`nav-link `}>Продвижение по ключевым словам</a></Link></div>
+                                                 <div ><Link href='/results.html' ><a className={`nav-link `}>Продвижение с оплатой за результат</a></Link></div>
+                                                 <div ><Link href='/audit.html' ><a className={`nav-link `}>Аудит сайта</a></Link></div>
+                                                 <div ><Link href='/craud.html' ><a className={`nav-link `}>Крауд маркетинг</a></Link></div>
+                                                 <div ><Link href='/text.html' ><a className={`nav-link `}>Написание текстов</a></Link></div>
+                                                 <div ><Link href='/logo-page.html' ><a className={`nav-link `}>Упаковка</a></Link></div>
 
                                              </div>
                                          </div>
@@ -140,8 +121,8 @@ const Navbar = (props) => {
 
 
 
-                         <div  className="ml-3"><Link href='/blog' ><a className={`nav-link `}>Блог</a></Link></div>
-                         <div  className="ml-3"><Link href='/about'><a className={`nav-link `}>О нас</a></Link></div>
+                         <div  className="ml-3"><Link href='/blog.html' ><a className={`nav-link `}>Блог</a></Link></div>
+                         <div  className="ml-3"><Link href='/about.html'><a className={`nav-link `}>О нас</a></Link></div>
 
 
                        <div className="nav-link ml-5 tedNone">
@@ -166,7 +147,7 @@ const Navbar = (props) => {
                 <div className="row d-none">
                         <div className="navbar">
                             <div className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/' ><a className={`nav-link`}>Главная</a></Link></div>
-                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/cases' ><a className={`nav-link`}>Кейсы</a></Link></div>
+                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/cases.html' ><a className={`nav-link`}>Кейсы</a></Link></div>
 
                             <div className="dropdownFather   ">
 
@@ -183,23 +164,23 @@ const Navbar = (props) => {
                                     <div className="dropdownMenu" style={{width: "500px !important", left: "-185px !important"}}>
 
 
-                                                    <div ><Link href='/create-landing' ><a className={`nav-link `}>Создание landing-page </a></Link></div>
-                                                    <div ><Link href='/online-shopping' ><a className={`nav-link `}>Разработка <br/> интернет-магазинов </a></Link></div>
-                                                    <div ><Link href='/corp-site' ><a className={`nav-link `}>Создание корпоративных <br/> сайтов </a></Link></div>
-                                                    <div ><Link href='/visitok' ><a className={`nav-link `}>Создание сайта-визитки </a></Link></div>
-                                                    <div ><Link href='/comp-site' ><a className={`nav-link `}>Создание сайта компании </a></Link></div>
-                                                    <div ><Link href='/product-stie' ><a className={`nav-link `}>Создание продающих <br/> сайтов </a></Link></div>
-                                                    <div ><Link href='/promo-site' ><a className={`nav-link `}>Создание промо-сайтов </a></Link></div>
-                                                    <div ><Link href='/once-site' ><a className={`nav-link `}> Создание одностраничного <br/> сайта</a></Link></div>
+                                                    <div ><Link href='/create-landing.html' ><a className={`nav-link `}>Создание landing-page </a></Link></div>
+                                                    <div ><Link href='/online-shopping.html' ><a className={`nav-link `}>Разработка <br/> интернет-магазинов </a></Link></div>
+                                                    <div ><Link href='/corp-site.html' ><a className={`nav-link `}>Создание корпоративных <br/> сайтов </a></Link></div>
+                                                    <div ><Link href='/visitok.html' ><a className={`nav-link `}>Создание сайта-визитки </a></Link></div>
+                                                    <div ><Link href='/comp-site.html' ><a className={`nav-link `}>Создание сайта компании </a></Link></div>
+                                                    <div ><Link href='/product-stie.html' ><a className={`nav-link `}>Создание продающих <br/> сайтов </a></Link></div>
+                                                    <div ><Link href='/promo-site.html' ><a className={`nav-link `}>Создание промо-сайтов </a></Link></div>
+                                                    <div ><Link href='/once-site.html' ><a className={`nav-link `}> Создание одностраничного <br/> сайта</a></Link></div>
 
 
-                                                    <div ><Link href='/portol' ><a className={`nav-link `}> Создание порталов</a></Link></div>
-                                                    <div ><Link href='/online-service' ><a className={`nav-link `}>Разработка онлайн <br/> сервисов </a></Link></div>
-                                                    <div ><Link href='/site-catalog' ><a className={`nav-link `}>Разработка <br/> сайта-каталога </a></Link></div>
-                                                    <div ><Link href='/pod-site' ><a className={`nav-link `}>Поддержка сайтов </a></Link></div>
-                                                    <div ><Link href='/dor-site' ><a className={`nav-link `}>Доработка сайтов </a></Link></div>
-                                                    <div ><Link href='/ind-project' ><a className={`nav-link `}>Индивидуальные проекты </a></Link></div>
-                                                    <div ><Link href='/startup' ><a className={`nav-link `}>Стартапы </a></Link></div>
+                                                    <div ><Link href='/portol.html' ><a className={`nav-link `}> Создание порталов</a></Link></div>
+                                                    <div ><Link href='/online-service.html' ><a className={`nav-link `}>Разработка онлайн <br/> сервисов </a></Link></div>
+                                                    <div ><Link href='/site-catalog.html' ><a className={`nav-link `}>Разработка <br/> сайта-каталога </a></Link></div>
+                                                    <div ><Link href='/pod-site.html' ><a className={`nav-link `}>Поддержка сайтов </a></Link></div>
+                                                    <div ><Link href='/dor-site.html' ><a className={`nav-link `}>Доработка сайтов </a></Link></div>
+                                                    <div ><Link href='/ind-project.html' ><a className={`nav-link `}>Индивидуальные проекты </a></Link></div>
+                                                    <div ><Link href='/startup.html' ><a className={`nav-link `}>Стартапы </a></Link></div>
 
 
 
@@ -252,24 +233,24 @@ const Navbar = (props) => {
                                     <div className="dropdownMenu" style={{width: "500px !important", left: "-185px !important"}}>
 
 
-                                        <div ><Link href='/smm' ><a className={`nav-link `}>СММ</a></Link></div>
-                                        <div ><Link href='/marceting' ><a className={`nav-link `}>Реальный Маркетинг</a></Link></div>
-                                        <div ><Link href='/seo' ><a className={`nav-link `}>SEO-продвижение</a></Link></div>
-                                        <div ><Link href='/pps' ><a className={`nav-link `}>PPC - контекстная реклама</a></Link></div>
-                                        <div ><Link href='/seo-opt' ><a className={`nav-link `}>SEO – оптимизация сайта</a></Link></div>
-                                        <div ><Link href='/conversi' ><a className={`nav-link `}>CRO – оптимизация <br/> коэффициента конверсии</a></Link></div>
-                                        <div ><Link href='/ctr' ><a className={`nav-link `}>CTR – оптимизация <br/> коэффициента  кликабельности</a></Link></div>
-                                        <div ><Link href='/aso' ><a className={`nav-link `}>ASO – продвижение <br/> мобильных приложений</a></Link></div>
-                                        <div ><Link href='/logo-page' ><a className={`nav-link `}>Упаковка</a></Link></div>
+                                        <div ><Link href='/smm.html' ><a className={`nav-link `}>СММ</a></Link></div>
+                                        <div ><Link href='/marceting.html' ><a className={`nav-link `}>Реальный Маркетинг</a></Link></div>
+                                        <div ><Link href='/seo.html' ><a className={`nav-link `}>SEO-продвижение</a></Link></div>
+                                        <div ><Link href='/pps.html' ><a className={`nav-link `}>PPC - контекстная реклама</a></Link></div>
+                                        <div ><Link href='/seo-opt.html' ><a className={`nav-link `}>SEO – оптимизация сайта</a></Link></div>
+                                        <div ><Link href='/conversi.html' ><a className={`nav-link `}>CRO – оптимизация <br/> коэффициента конверсии</a></Link></div>
+                                        <div ><Link href='/ctr.html' ><a className={`nav-link `}>CTR – оптимизация <br/> коэффициента  кликабельности</a></Link></div>
+                                        <div ><Link href='/aso.html' ><a className={`nav-link `}>ASO – продвижение <br/> мобильных приложений</a></Link></div>
+                                        <div ><Link href='/logo-page.html' ><a className={`nav-link `}>Упаковка</a></Link></div>
 
 
-                                        <div ><Link href='/serm' ><a className={`nav-link `}>SERM – маркетинг для бизнеса</a></Link></div>
-                                        <div ><Link href='/complex' ><a className={`nav-link `}>Комплексное продвижение</a></Link></div>
-                                        <div ><Link href='/keywords' ><a className={`nav-link `}>Продвижение по <br/> ключевым словам</a></Link></div>
-                                        <div ><Link href='/results' ><a className={`nav-link `}>Продвижение с оплатой <br/> за результат</a></Link></div>
-                                        <div ><Link href='/audit' ><a className={`nav-link `}>Аудит сайта</a></Link></div>
-                                        <div ><Link href='/craud' ><a className={`nav-link `}>Крауд маркетинг</a></Link></div>
-                                        <div ><Link href='/text' ><a className={`nav-link `}>Написание текстов</a></Link></div>
+                                        <div ><Link href='/serm.html' ><a className={`nav-link `}>SERM – маркетинг для бизнеса</a></Link></div>
+                                        <div ><Link href='/complex.html' ><a className={`nav-link `}>Комплексное продвижение</a></Link></div>
+                                        <div ><Link href='/keywords.html' ><a className={`nav-link `}>Продвижение по <br/> ключевым словам</a></Link></div>
+                                        <div ><Link href='/results.html' ><a className={`nav-link `}>Продвижение с оплатой <br/> за результат</a></Link></div>
+                                        <div ><Link href='/audit.html' ><a className={`nav-link `}>Аудит сайта</a></Link></div>
+                                        <div ><Link href='/craud.html' ><a className={`nav-link `}>Крауд маркетинг</a></Link></div>
+                                        <div ><Link href='/text.html' ><a className={`nav-link `}>Написание текстов</a></Link></div>
 
 
                                     </div>
@@ -302,8 +283,8 @@ const Navbar = (props) => {
                             </div>
 
                             {/*<div  className="d-flex align-items-center"><div className="navDots mt-4" /><Link href='/services' className={`nav-link ${props.history.location.pathname === '/services' && 'active'}`}>Услуги</Link></div>*/}
-                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/blog'><a className={`nav-link`}>Блог</a></Link></div>
-                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/about'><a className={`nav-link`}>О нас</a></Link></div>
+                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/blog.html'><a className={`nav-link`}>Блог</a></Link></div>
+                            <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/about.html'><a className={`nav-link`}>О нас</a></Link></div>
                             <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/' ><a className={`nav-link`}>RU</a></Link></div>
                             <div  className="d-flex align-items-center"><div className="navDots mt-2" /><Link href='/' ><a className={`nav-link`}>EN</a></Link></div>
                         </div>
