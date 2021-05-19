@@ -3,7 +3,7 @@ import React from 'react';
 const BannersCases = () => {
     return (
         <div className="BannersCases">
-            <h3>КЕЙСЫ</h3>
+            <h3 className="newPagesTitle">КЕЙСЫ</h3>
             <div className="row p-0 m-0">
                 <div className="col-md-6  p-0 m-0 overflow-hidden">
                     <div className="sloy"/>

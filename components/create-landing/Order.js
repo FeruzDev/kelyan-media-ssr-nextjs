@@ -3,7 +3,7 @@ import React from 'react';
 const Order = () => {
     return (
         <div className="Order">
-            <h3>6 причин заказать именно здесь </h3>
+            <h3 className="newPagesTitle">6 причин заказать именно здесь </h3>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">

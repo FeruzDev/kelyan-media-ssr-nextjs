@@ -77,6 +77,7 @@ const Accordion = () => {
 
     return(
         <div className="accordionTable container">
+            <h3 className="newPagesTitle">Часто задаваемы вопросы</h3>
             <form>
                 { accordionData.map((tab, index) => (
                     <div key={index}>

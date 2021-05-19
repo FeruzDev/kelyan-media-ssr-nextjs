@@ -5,7 +5,7 @@ const Technology = () => {
         <div className="Technology">
 
             <div className="container">
-                <h3>Технологии</h3>
+                <h3 className="newPagesTitle">Технологии</h3>
                 <p>которые мы используем в наших проектах</p>
                 <div className="row">
                     <div className="col-3">

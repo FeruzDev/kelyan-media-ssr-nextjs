@@ -4,7 +4,7 @@ const Offer = () => {
     return (
         <div className="techOffers">
             <div className="container">
-                <h3>Чем наше предложения лучше остальных ?</h3>
+                <h3 className="newPagesTitle">Чем наше предложения лучше остальных ?</h3>
                 <div className="row">
                     <div className="box">
                         <img
