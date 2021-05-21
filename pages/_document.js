@@ -70,6 +70,8 @@ class MyDocument extends Document {
 
                   </style>
 
+                  <meta name="google-site-verification" content="sQMB2bATmIiCcqBZ2aDdK1qyuhMXsLzGPdYrFNI-0DA" />
+
               </Head>
               <body>
             <div className="Loader" id="kotLoader">

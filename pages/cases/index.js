@@ -3,7 +3,6 @@ import Navbar from "../../components/Navbar";
 
 import Footer from "../../components/Footer";
 
-import CasesHeader from "../../components/Cases/CasesHeader";
 import CasesPair from "../../components/Cases/CasesPair";
 
 const CasesPage = (props) => {
@@ -23,7 +22,13 @@ const CasesPage = (props) => {
     return (
         <>
             <Navbar history={props.history}/>
-            <CasesHeader  />
+            {/*<CasesHeader  />*/}
+            <div className="overflow-hidden">
+                <img src="/img/service/cases.png" className="w-100" alt=""/>
+            </div>
+            <h3 className="  newPagesTitle" >Ваша визитная карточка и полноценное <br/> представительство компании в интернете</h3>
+
+
             <CasesPair />
             <Footer/>
         </>
