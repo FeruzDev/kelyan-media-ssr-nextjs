@@ -51,7 +51,7 @@ class Services extends Component {
 
                                   </ul>
                                <div  >
-                                   <Link href="/smm" ><a className="rounded-pill">Подробнее</a></Link>
+                                   <Link href="/targetingova-reklama" ><a className="rounded-pill">Подробнее</a></Link>
                                </div>
                             </div>
                         </div>
