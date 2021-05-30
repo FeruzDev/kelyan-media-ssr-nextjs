@@ -52,7 +52,7 @@ const Navbar = (props) => {
                                         <div className="container">
                                             <div className="row align-items-baseline">
                                                 <div className="col-md-6">
-                                                    <div><Link href='/razrabotka-landing-page'><a className={`nav-link `}>Создание
+                                                    <div><Link href='/razrabotka-landing-page.html'><a className={`nav-link `}>Создание
                                                         landing-page </a></Link></div>
                                                     <div><Link href='/sozdaniye-internet-magazina.html'><a className={`nav-link `}>Разработка
                                                         интернет-магазинов </a></Link></div>
@@ -211,7 +211,7 @@ const Navbar = (props) => {
                                      style={{width: "500px !important", left: "-185px !important"}}>
 
 
-                                    <div><Link href='/razrabotka-landing-page'><a className={`nav-link `}>Создание
+                                    <div><Link href='/razrabotka-landing-page.html'><a className={`nav-link `}>Создание
                                         landing-page </a></Link></div>
                                     <div><Link href='/sozdaniye-internet-magazina.html'><a
                                         className={`nav-link `}>Разработка <br/> интернет-магазинов </a></Link></div>
