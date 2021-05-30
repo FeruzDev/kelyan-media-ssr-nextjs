@@ -28,7 +28,7 @@ const BannersCases = () => {
                     <div className="text">
                         <img src="/img/service/a3min.PNG" alt="" className="sloyImg"/>
                         <a href="https://Ujsinvest.uz" target="_blank">Подробнее</a></div>
-                    <img src="/img/n (3).jpg" className="w-100" alt=""/>
+                    <img src="/img/n (4).jpg" className="w-100" alt=""/>
                 </div>
                 <div className="col-md-6  p-0 m-0 overflow-hidden">
                     <div className="sloy"/>
@@ -36,7 +36,7 @@ const BannersCases = () => {
                     <div className="text">
                         <img src="/img/service/a4min.PNG" alt="" className="sloyImg"/>
                         <a href="https://ADAV.uz" target="_blank">Подробнее</a></div>
-                    <img src="/img/n (4).jpg" className="w-100" alt=""/>
+                    <img src="/img/n (3).jpg" className="w-100" alt=""/>
                 </div>
             </div>
         </div>

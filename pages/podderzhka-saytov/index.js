@@ -31,7 +31,7 @@ const CorpSite = (props    ) => {
         <>
             <Head>
                 <title> Поддержка сайта: Заказать обслуживание интернет сайта у студии  KelyanMedia </title>
-                <meta name="description" content="Поддержка Сайтов Клиентов ✓ Берем все на себя! Выгодные условия от ведущей студии Узбекистана.☆ Мы поможем поддерживать ваш сайт!"/>
+                <meta name="description" content="ᐅ Поддержка Сайтов Клиентов ✓ Берем все на себя! Выгодные условия от ведущей студии Узбекистана.☆ Мы поможем поддерживать ваш сайт!"/>
             </Head>
             <Navbar history={props.history}/>
             <div className="overflow-hidden">

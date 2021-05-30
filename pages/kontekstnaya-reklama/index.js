@@ -29,7 +29,7 @@ const Seo = () => {
         <div>
             <Head>
                 <title>Заказать настройку и запуск контекстной рекламы для сайта в Ташкенте от KelyanMedia</title>
-                <meta name="description" content="Запуск и настройка контекста в Узбекистане ✓  Заказать настройку контекстной рекламы в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по PPC"/>
+                <meta name="description" content="ᐅ Запуск и настройка контекста в Узбекистане ✓  Заказать настройку контекстной рекламы в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по PPC"/>
             </Head>
             <Navbar />
             <div className="overflow-hidden">

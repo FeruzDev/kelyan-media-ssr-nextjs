@@ -7,8 +7,8 @@ class Marceting extends Component {
             <div className="Marceting">
 
                 <div className="container">
-                    <h3 className="text-center styles_typicalWrapper__1_Uvh ml-auto mr-auto">Что вы получите от реального
-                        маркетинга?</h3>
+                    <h3 className="text-center styles_typicalWrapper__1_Uvh ml-auto mr-auto">Что вы получите от
+                        реального маркетинга ?</h3>
                     <div className="row">
                         <div className="col-6">
                             <h3 className="styles_typicalWrapper__1_Uvh"
@@ -35,8 +35,7 @@ class Marceting extends Component {
                                 Комплексный подход
                             </h3>
                             <p>
-                                От того, как используются цвета и расположение ключевых элементов, зависит узнаваемость
-                                и ценность вашей компании.
+                                От того, как используются цвета и расположение ключевых элементов, зависит узнаваемость и ценность вашей компании.
                             </p>
                         </div>
 

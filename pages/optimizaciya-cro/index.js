@@ -29,7 +29,7 @@ const Seo = () => {
         <div>
             <Head>
                 <title>Заказать оптимизацию конверсии сайта (CRO) недорого в Ташкенте</title>
-                <meta name="description" content="Повышение продаж вашего сайта ✓  Закажите оптимизацию коэффициента конверсии в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по CRO"/>
+                <meta name="description" content="ᐅ Повышение продаж вашего сайта ✓  Закажите оптимизацию коэффициента конверсии в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по CRO"/>
             </Head>
             <Navbar />
             <div className="overflow-hidden">

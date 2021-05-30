@@ -29,7 +29,7 @@ const Seo = () => {
         <div>
             <Head>
                 <title>SERM – маркетинг: Заказать управление репутацией для бизнеса в KelyanMedia </title>
-                <meta name="description" content="Управление репутацией в интернете для вашего бизнеса ✓  Закажите SERM маркетинг в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SERM маркетингу"/>
+                <meta name="description" content="ᐅ Управление репутацией в интернете для вашего бизнеса ✓  Закажите SERM маркетинг в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SERM маркетингу"/>
             </Head>
             <Navbar />
             <div className="overflow-hidden">

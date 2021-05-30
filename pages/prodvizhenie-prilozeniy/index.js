@@ -29,7 +29,7 @@ const Seo = () => {
         <div>
             <Head>
                 <title>Продвижение мобильных приложений для Android и IOS от KelyanMedia  </title>
-                <meta name="description" content=" Эффективное продвижение мобильный приложений в Play Market и App Store ✓  Закажите продвижение приложения в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по ASO маркетингу
+                <meta name="description" content="ᐅ  Эффективное продвижение мобильный приложений в Play Market и App Store ✓  Закажите продвижение приложения в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по ASO маркетингу
 
  "/>
             </Head>

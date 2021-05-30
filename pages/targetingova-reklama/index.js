@@ -29,7 +29,7 @@ const SmmPage = (props) => {
         <>
             <Head>
                 <title>Заказать SMM продвижение в социальных сетях в Facebook, Instagram в Ташкенте</title>
-                <meta name="description" content="Запуск рекламы Instagram и Facebook в Узбекистане ✓  Заказать настройку таргетинговой рекламы в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SMM маркетингу"/>
+                <meta name="description" content="ᐅ Запуск рекламы Instagram и Facebook в Узбекистане ✓  Заказать настройку таргетинговой рекламы в Ташкенте от студии 【KelyanMedia】 ☆ Комплексные услуги по SMM маркетингу"/>
             </Head>
             <Navbar history={props.history}/>
             <SmmHeader   />

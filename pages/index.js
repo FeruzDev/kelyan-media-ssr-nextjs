@@ -39,7 +39,7 @@ const HomePage = (props) => {
     <div className="overflow-hidden">
         <Head>
             <title>Создание сайта, продвижение сайтов и приложений, разработка в Ташкенте от агенства KelyanMedia</title>
-            <meta name="description" content="Качественное создание и продвижение сайтов в Ташкенте от веб студии 【KelyanMedia】. Разработка веб сайтов любой сложности ✓ Проекты готовы к продвижению... "/>
+            <meta name="description" content="ᐅ Качественное создание и продвижение сайтов в Ташкенте от веб студии 【KelyanMedia】. Разработка веб сайтов любой сложности ✓ Проекты готовы к продвижению... "/>
         </Head>
         <Navbar history={props.history} />
         <Jumbotron />

@@ -8,11 +8,14 @@ import BlogHeader from "../../../components/Blog/BlogHeader";
 const BlogView = (props) => {
     return (
         <div>
+            {
+                console.log(window.location.pathname)
+            }
             <Navbar history={props.history} />
 
             <BlogHeader className="mb-100" image="rec78.svg" text="Блог"/>
 
-            <BlogItem/>
+            <BlogItem />
             <ConsultationApplication/>
             <Footer />
         </div>
