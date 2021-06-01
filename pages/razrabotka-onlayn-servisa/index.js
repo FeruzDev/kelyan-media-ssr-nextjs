@@ -11,6 +11,7 @@ import Order from "../../components/create-landing/Order";
 import Accordion from "../../components/create-landing/Accordion";
 import BannersCases from "../../components/create-landing/BannersCases";
 import Head from "next/dist/next-server/lib/head";
+import Link from "next/link";
 
 const CorpSite = (props    ) => {
 
@@ -22,7 +23,7 @@ const CorpSite = (props    ) => {
             document.getElementById("desVid").style.display = "none"
             document.getElementById("mobVid").style.display = "none"
             document.getElementById("kotLoader").style.display = "none"
-        }, 3000)
+        },  1000)
 
 
     }, [])

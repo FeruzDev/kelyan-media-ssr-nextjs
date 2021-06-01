@@ -1,10 +1,13 @@
 import Document, {Html, Head, Main, NextScript} from 'next/document';
 
+
 class MyDocument extends Document {
     render() {
         return (
           <Html>
               <Head >
+
+
 
                   <style>
                   {
@@ -71,6 +74,7 @@ class MyDocument extends Document {
                   </style>
 
                   <meta name="google-site-verification" content="sQMB2bATmIiCcqBZ2aDdK1qyuhMXsLzGPdYrFNI-0DA" />
+
 
               </Head>
               <body>

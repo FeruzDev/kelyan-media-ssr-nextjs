@@ -17,7 +17,7 @@ const CompanyPage = (props) => {
             document.getElementById("desVid").style.display = "none"
             document.getElementById("mobVid").style.display = "none"
             document.getElementById("kotLoader").style.display = "none"
-        }, 3000)
+        },  1000)
         AOS.init({
             once: true
         });

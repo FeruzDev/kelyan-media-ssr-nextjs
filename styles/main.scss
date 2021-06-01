@@ -1502,7 +1502,8 @@ html{
 .Cases{
   margin: 0;
   padding: 0;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
+  padding-bottom: 50px !important;
 
   h2 {
     color: #362836;
@@ -1541,7 +1542,12 @@ html{
 
 
 
-  button{
+.vse{
+
+
+  margin-top: 40px;
+  a{
+
     border: 1px solid #fff;
     background-color: transparent;
     padding: 10px 20px;
@@ -1555,6 +1561,10 @@ html{
       margin-left: 10px;
     }
   }
+  a:hover{
+    text-decoration: none;
+  }
+}
 }
 
 .Clients{
@@ -2779,9 +2789,33 @@ h3{
 
 
   }
+  .vse{
+
+
+    margin-top: 40px;
+    a{
+
+      border: 1px solid #fff;
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: #fff;
+      margin-top: 100px;
+      font-size: 26px;
+      img{
+        width: 30px;
+        height: 15px;
+        margin-left: 10px;
+      }
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
   .row{
     .col-md-6{
       position: relative;
+
       .sloy{
         position: absolute;
         left: -100%;

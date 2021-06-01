@@ -15,7 +15,7 @@ const CasesPage = (props) => {
             document.getElementById("desVid").style.display = "none"
             document.getElementById("mobVid").style.display = "none"
             document.getElementById("kotLoader").style.display = "none"
-        }, 3000)
+        },  1000)
 
 
     }, [])
@@ -26,8 +26,6 @@ const CasesPage = (props) => {
             <div className="overflow-hidden">
                 <img src="/img/service/cases.png" className="w-100" alt=""/>
             </div>
-            <h3 className="  newPagesTitle" >Ваша визитная карточка и полноценное <br/> представительство компании в интернете</h3>
-
 
             <CasesPair />
             <Footer/>

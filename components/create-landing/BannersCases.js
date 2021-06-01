@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const BannersCases = () => {
     return (
@@ -39,6 +40,20 @@ const BannersCases = () => {
                     <img src="/img/n (3).jpg" className="w-100" alt=""/>
                 </div>
             </div>
+
+
+
+
+
+            <div className="w-100 text-center vse">
+
+                <Link href="/cases"><a  >Все проекты <img src="/img/icon/arrow.png" alt=""/></a></Link>
+            </div>
+
+
+
+
+
         </div>
     );
 };

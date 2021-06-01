@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Link from "next/link";
 
 class Cases extends Component {
 
@@ -40,9 +41,9 @@ class Cases extends Component {
 
 
 
-                <div className="w-100 text-center">
+                <div className="w-100 text-center vse">
 
-                    {/*<Link href="/cases"><a  >Все проекты <img src="/img/icon/arrow.png" alt=""/></a></Link>*/}
+                    <Link href="/cases"><a  >Все проекты <img src="/img/icon/arrow.png" alt=""/></a></Link>
                 </div>
             </div>
         );

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from "axios";
 import {toast, ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Link from "next/link";
 
 class SerContact extends Component {
     constructor(props) {
@@ -26,6 +27,7 @@ class SerContact extends Component {
             .then(res =>{
                 toast.success("Заявка отправлена");
 
+                console.log("Заявка отправлена")
             })
             .catch(error =>{
                 console.log(error)

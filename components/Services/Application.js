@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Typical from "react-typical"
 import AOS from "aos";
 import axios from "axios";
+import {toast, ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 class Application extends Component {
     componentDidMount() {
@@ -19,6 +21,7 @@ class Application extends Component {
 
     changeHandler =e =>{
         this.setState({[e.target.name] : e.target.value})
+
     }
 
     submitHandler = e =>{
@@ -28,10 +31,11 @@ class Application extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
+                toast.success("Заявка отправлена")
 
             })
             .catch(error =>{
-                console.log(error)
+                toast.error(error)
             })
     }
 
@@ -84,6 +88,7 @@ class Application extends Component {
 
                     </div>
                 </div>
+                <ToastContainer/>
             </div>
         );
     }
