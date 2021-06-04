@@ -31,10 +31,12 @@ class BlogItem extends Component {
             })
     }
 
+
+
     render() {
-        {
-            // console.log(this.props.id)
-        }
+
+        const path =  "https://api.kelyanmedia.com"
+
         return (
             <div className="BlogItem">
                 <div className="container">
@@ -51,7 +53,7 @@ class BlogItem extends Component {
 
                         <div className="col-md-12">
 
-                            <img src={this.state.postItem.image}/>
+                            <img src={path + this.state.postItem.image}/>
 
                            <p dangerouslySetInnerHTML={{__html: this.state.postItem.description_ru}} />
 
@@ -108,7 +110,7 @@ class BlogItem extends Component {
                                                 <div className="tag">SMM</div>
                                             </div>
                                             <div className="card-body p-0 border-0">
-                                                <div className="overflow-hidden"><img src={item.image} alt="" className="w-100"/></div>
+                                                <div className="overflow-hidden"><img src={path + item.image} alt="" className="w-100"/></div>
 
                                                 <h4>{item.name_ru}</h4>
                                             </div>

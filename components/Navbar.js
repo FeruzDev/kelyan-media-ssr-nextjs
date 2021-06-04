@@ -192,9 +192,7 @@ const Navbar = (props) => {
                         <div className="d-flex align-items-center">
                             <div className="navDots mt-2"/>
                             <Link href='/cases'><a className={`nav-link`}>Кейсы</a></Link></div>
-
                         <div className="dropdownFather   ">
-
                             <div className="d-flex align-items-center">
                                 <div className="navDots  "/>
                                 <div className=" d-flex  align-items-center">

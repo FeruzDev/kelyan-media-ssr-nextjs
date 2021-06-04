@@ -15,13 +15,12 @@ class Application extends Component {
         this.state = {
             fio : '',
             phone: '',
-
+            isDisabled: false
         }
     }
 
     changeHandler =e =>{
         this.setState({[e.target.name] : e.target.value})
-
     }
 
     submitHandler = e =>{
@@ -31,14 +30,22 @@ class Application extends Component {
 
         axios.post("https://api.kelyanmedia.com/new-bid", this.state)
             .then(res =>{
-                toast.success("Заявка отправлена")
+                toast.success("Заявка отправлена");
 
             })
             .catch(error =>{
-                toast.error(error)
+                console.log(error)
             })
     }
-
+    handleSubmitClicked() {
+        this.setState({
+            isDisabled: true
+        });
+    }
+    add() {
+        this.props.onButtonClick(this.input.value);
+        this.input.value = '';
+    }
 
     render() {
 
@@ -81,14 +88,13 @@ class Application extends Component {
                                     <img src="/img/icon/flag.svg" alt=""/>
                                     <input type="text" name="phone" placeholder="99 8 (99) 999-99-99" className="form-control" onChange={this.changeHandler}/>
                                 </div>
-                                    <button type="submit" className="btn">Отправить</button>
+                                    <button type="submit" disabled={this.state.isDisabled} onClick={this.handleSubmitClicked.bind(this)} className="btn">Отправить</button>
                             </form>
 
                         </div>
 
                     </div>
                 </div>
-                <ToastContainer/>
             </div>
         );
     }

@@ -1,83 +1,115 @@
-import React, {Component} from 'react';
-import AOS from "aos";
+import React, {Component, useEffect, useState} from 'react';
 
-class CasesPair extends Component {
+import Link from "next/link";
 
-    componentDidMount() {
-        AOS.init();
+import axios from "axios";
+import {Pagination, PaginationItem, PaginationLink} from "reactstrap";
+
+const CasesPair = () => {
+    const [posts, setPosts] =  useState([]);
+
+
+    useEffect(() => {
+
+        axios.post("https://api.kelyanmedia.com/get-cases")
+            .then( res =>{
+                setPosts(res.data)
+            })
+    } , []);
+
+
+    const pageSize = 12;
+
+    const pagesCount = Math.ceil(posts.length / pageSize);
+
+    const path =  "https://api.kelyanmedia.com"
+    const  [ currentPage, setCurrentPage] = useState(0);
+
+
+
+
+    const    handleClick  = (e, index) => {
+
+        e.preventDefault();
+        setCurrentPage(index)
+
 
     }
-    render() {
-        return (
-            <div className="Cases">
-                <div className="row">
-                    <div className="col-md-6">
-                        <img src="/img/service/q2.jpg" alt=""/>
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/img/service/q3.jpg" alt=""/>
-
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/img/service/q4.jpg" alt=""/>
-
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/img/service/q5.jpg" alt=""/>
-
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/img/service/q7.jpg" alt=""/>
-
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/img/service/q6.jpg" alt=""/>
-
-                    </div>
 
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q9.jpg" alt=""/>
+    return (
+
+        <div className="Cases">
+
+
+
+                    <div className="row">
+
+                        {posts.slice(
+                            currentPage * pageSize,
+                            (currentPage + 1) * pageSize
+                        )
+                            .map((item, i) =>
+
+
+
+                                <div className="col-md-6" style={{height: "400px"}}>
+                                    <Link href={"/cases/" + item.id}  >
+                                        <a  ><img src={path + item.image} className="h-100 w-100" alt=""/></a>
+                                    </Link>
+                                </div>
+
+
+                            )}
                     </div>
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q10.jpg" alt=""/>
 
-                    </div>
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q11.jpg" alt=""/>
 
-                    </div>
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q12.jpg" alt=""/>
 
-                    </div>
+                <div className="pagination-wrapper mt-5 w-100  justify-content-center ml-5">
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q14.jpg" alt=""/>
+                    <Pagination aria-label="Page navigation example " className="justify-content-center">
 
-                    </div>
+                        <PaginationItem disabled={currentPage <= 0}>
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q15.jpg" alt=""/>
+                            <PaginationLink
+                                onClick={e => handleClick(e, currentPage - 1)}
+                                previous
+                                href="#"
+                            />
 
-                    </div>
+                        </PaginationItem>
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q16.jpg" alt=""/>
+                        {[...Array(pagesCount)].map((page, i) =>
+                            <PaginationItem active={i === currentPage} key={i}>
+                                <PaginationLink onClick={e => handleClick(e, i)} href="#">
+                                    {i + 1}
+                                </PaginationLink>
+                            </PaginationItem>
+                        )}
 
-                    </div>
+                        <PaginationItem disabled={currentPage >= pagesCount - 1} >
 
-                    <div className="col-md-6">
-                        <img  src="/img/service/q17.jpg" alt=""/>
+                            <PaginationLink
+                                onClick={e => handleClick(e, currentPage + 1)}
+                                next
+                                href="#"
 
-                    </div>
+                            />
+
+                        </PaginationItem>
+
+                    </Pagination>
+
                 </div>
-            </div>
-        );
-    }
-}
+
+        </div>
+
+
+
+    );
+};
 
 export default CasesPair;

@@ -42,18 +42,10 @@ const BannersCases = () => {
             </div>
 
 
-
-
-
             <div className="w-100 text-center vse">
 
                 <Link href="/cases"><a  >Все проекты <img src="/img/icon/arrow.png" alt=""/></a></Link>
             </div>
-
-
-
-
-
         </div>
     );
 };
